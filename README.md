@@ -1,49 +1,17 @@
-# usecase_energy
+# DKSR City Mission - Prague 2024
 
-A short description of the project.
+From September 16th to 20th, Prague will host the first-ever DKSR City Mission.
 
-## Project Organization
+In this repository, you will find the relevant analysis and source code used for the different use cases.
 
-```
-├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
-│
-├── models             <- Trained and serialized models, model predictions, or model summaries
-│
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
-│
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-│
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-│
-├── setup.cfg          <- Configuration file for flake8
-│
-└── usecase_mobility   <- Source code for use in this project.
-    │
-    ├── __init__.py             <- Makes usecase_mobility a Python module
-    │
-    ├── config.py               <- Store useful variables and configuration
-    │
-    ├── dataset.py              <- Scripts to download or generate data
-    │
-    ├── features.py             <- Code to create features for modeling
-    │
-    ├── modeling                
-    │   ├── __init__.py 
-    │   ├── predict.py          <- Code to run model inference with trained models          
-    │   └── train.py            <- Code to train models
-    │
-    └── plots.py                <- Code to create visualizations
-```
+For a detailed description of each use case and its respective analysis, refer to the corresponding `README.md`.
 
---------
+## For Developers
+
+To ensure reproducibility and portability of the code, Docker is recommended. The `Dockerfile` in the root directory uses multi-stage builds to accommodate the three use cases. Specify which use case you are working on using the `--target` argument (also to be updated in the `devcontainer.json` if you are using VSCode).
+
+The `requirements.txt` in the root directory contains packages that we consider essential for a data science project. You can add use case-specific packages in the respective folders.
+
+Additionally, the `.gitignore` is customized for each use case.
+
+Happy coding! :)
