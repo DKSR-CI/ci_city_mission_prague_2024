@@ -6,7 +6,11 @@ In this repository, you will find the relevant analysis and source code used for
 
 For a detailed description of each use case and its respective analysis, refer to the corresponding `README.md`.
 
-## For Developers
+## For the general audience
+
+> To be filled
+
+## For the data scientists and developers
 
 To ensure reproducibility and portability of the code, Docker is recommended. The `Dockerfile` in the root directory uses multi-stage builds to accommodate the three use cases. Specify which use case you are working on using the `--target` argument (also to be updated in the `devcontainer.json` if you are using VSCode).
 
