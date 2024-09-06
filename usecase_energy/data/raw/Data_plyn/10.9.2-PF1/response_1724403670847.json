@@ -1,0 +1,1994 @@
+[
+  {
+    "time": "2023-10-01T06:00:00.000Z",
+    "value": "15616.900000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-30T06:00:00.000Z",
+    "value": "15616.900000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-29T06:00:00.000Z",
+    "value": "15616.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-28T06:00:00.000Z",
+    "value": "15616.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-27T06:00:00.000Z",
+    "value": "15614.800000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-26T06:00:00.000Z",
+    "value": "15613.300000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-25T06:00:00.000Z",
+    "value": "15612.600000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-24T06:00:00.000Z",
+    "value": "15612.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-23T06:00:00.000Z",
+    "value": "15612.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-22T06:00:00.000Z",
+    "value": "15611.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-21T06:00:00.000Z",
+    "value": "15610.600000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-20T06:00:00.000Z",
+    "value": "15609.800000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-19T06:00:00.000Z",
+    "value": "15609.000000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-18T06:00:00.000Z",
+    "value": "15608.000000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-17T06:00:00.000Z",
+    "value": "15608.000000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-16T06:00:00.000Z",
+    "value": "15608.000000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-15T06:00:00.000Z",
+    "value": "15607.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-14T06:00:00.000Z",
+    "value": "15605.400000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-13T06:00:00.000Z",
+    "value": "15604.600000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-12T06:00:00.000Z",
+    "value": "15604.000000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-11T06:00:00.000Z",
+    "value": "15603.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-10T06:00:00.000Z",
+    "value": "15603.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-09T06:00:00.000Z",
+    "value": "15603.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-08T06:00:00.000Z",
+    "value": "15602.700000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-07T06:00:00.000Z",
+    "value": "15601.600000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-06T06:00:00.000Z",
+    "value": "15601.300000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-05T06:00:00.000Z",
+    "value": "15599.900000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-04T06:00:00.000Z",
+    "value": "15599.000000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-03T06:00:00.000Z",
+    "value": "15599.000000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-02T06:00:00.000Z",
+    "value": "15599.000000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-09-01T06:00:00.000Z",
+    "value": "15599.000000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-31T06:00:00.000Z",
+    "value": "15599.000000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-30T06:00:00.000Z",
+    "value": "15599.000000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-29T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-28T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-27T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-26T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-25T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-24T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-23T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-22T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-21T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-20T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-19T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-18T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-17T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-16T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-15T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-14T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-13T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-12T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-11T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-10T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-09T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-08T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-07T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-06T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-05T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-04T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-03T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-02T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-08-01T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-31T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-30T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-29T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-28T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-27T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-26T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-25T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-24T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-23T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-22T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-21T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-20T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-19T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-18T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-17T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-16T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-15T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-14T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-13T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-12T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-11T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-10T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-09T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-08T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-07T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-06T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-05T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-04T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-03T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-02T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-07-01T06:00:00.000Z",
+    "value": "15598.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-30T06:00:00.000Z",
+    "value": "15597.000000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-29T06:00:00.000Z",
+    "value": "15596.000000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-28T06:00:00.000Z",
+    "value": "15594.600000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-27T06:00:00.000Z",
+    "value": "15593.800000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-26T06:00:00.000Z",
+    "value": "15592.700000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-25T06:00:00.000Z",
+    "value": "15592.700000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-24T06:00:00.000Z",
+    "value": "15592.700000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-23T06:00:00.000Z",
+    "value": "15592.300000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-22T06:00:00.000Z",
+    "value": "15591.700000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-21T06:00:00.000Z",
+    "value": "15590.700000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-20T06:00:00.000Z",
+    "value": "15590.100000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-19T06:00:00.000Z",
+    "value": "15589.600000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-18T06:00:00.000Z",
+    "value": "15589.600000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-17T06:00:00.000Z",
+    "value": "15589.600000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-16T06:00:00.000Z",
+    "value": "15588.600000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-15T06:00:00.000Z",
+    "value": "15587.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-14T06:00:00.000Z",
+    "value": "15585.700000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-13T06:00:00.000Z",
+    "value": "15585.000000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-12T06:00:00.000Z",
+    "value": "15584.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-11T06:00:00.000Z",
+    "value": "15584.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-10T06:00:00.000Z",
+    "value": "15584.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-09T06:00:00.000Z",
+    "value": "15583.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-08T06:00:00.000Z",
+    "value": "15581.900000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-07T06:00:00.000Z",
+    "value": "15580.900000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-06T06:00:00.000Z",
+    "value": "15580.100000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-05T06:00:00.000Z",
+    "value": "15579.400000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-04T06:00:00.000Z",
+    "value": "15579.400000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-03T06:00:00.000Z",
+    "value": "15579.400000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-02T06:00:00.000Z",
+    "value": "15577.300000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-06-01T06:00:00.000Z",
+    "value": "15576.700000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-31T06:00:00.000Z",
+    "value": "15575.600000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-30T06:00:00.000Z",
+    "value": "15543.100000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-29T06:00:00.000Z",
+    "value": "15515.000000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-28T06:00:00.000Z",
+    "value": "15489.100000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-27T06:00:00.000Z",
+    "value": "15461.800000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-26T06:00:00.000Z",
+    "value": "15428.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-25T06:00:00.000Z",
+    "value": "15385.300000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-24T06:00:00.000Z",
+    "value": "15336.400000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-23T06:00:00.000Z",
+    "value": "15293.900000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-22T06:00:00.000Z",
+    "value": "15262.300000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-21T06:00:00.000Z",
+    "value": "15232.700000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-20T06:00:00.000Z",
+    "value": "15199.600000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-19T06:00:00.000Z",
+    "value": "15159.100000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-18T06:00:00.000Z",
+    "value": "15109.900000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-17T06:00:00.000Z",
+    "value": "15064.300000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-16T06:00:00.000Z",
+    "value": "15023.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-15T06:00:00.000Z",
+    "value": "14984.400000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-14T06:00:00.000Z",
+    "value": "14947.100000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-13T06:00:00.000Z",
+    "value": "14907.400000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-12T06:00:00.000Z",
+    "value": "14867.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-11T06:00:00.000Z",
+    "value": "14832.300000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-10T06:00:00.000Z",
+    "value": "14796.900000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-09T06:00:00.000Z",
+    "value": "14754.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-08T06:00:00.000Z",
+    "value": "14716.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-07T06:00:00.000Z",
+    "value": "14678.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-06T06:00:00.000Z",
+    "value": "14645.600000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-05T06:00:00.000Z",
+    "value": "14608.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-04T06:00:00.000Z",
+    "value": "14565.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-03T06:00:00.000Z",
+    "value": "14519.800000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-02T06:00:00.000Z",
+    "value": "14480.700000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-05-01T06:00:00.000Z",
+    "value": "14443.000000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-30T06:00:00.000Z",
+    "value": "14389.600000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-29T06:00:00.000Z",
+    "value": "14336.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-28T06:00:00.000Z",
+    "value": "14274.900000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-27T06:00:00.000Z",
+    "value": "14225.800000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-26T06:00:00.000Z",
+    "value": "14174.100000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-25T06:00:00.000Z",
+    "value": "14119.900000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-24T06:00:00.000Z",
+    "value": "14059.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-23T06:00:00.000Z",
+    "value": "14018.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-22T06:00:00.000Z",
+    "value": "13978.300000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-21T06:00:00.000Z",
+    "value": "13929.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-20T06:00:00.000Z",
+    "value": "13872.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-19T06:00:00.000Z",
+    "value": "13817.100000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-18T06:00:00.000Z",
+    "value": "13761.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-17T06:00:00.000Z",
+    "value": "13709.400000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-16T06:00:00.000Z",
+    "value": "13660.600000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-15T06:00:00.000Z",
+    "value": "13607.700000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-14T06:00:00.000Z",
+    "value": "13538.700000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-13T06:00:00.000Z",
+    "value": "13486.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-12T06:00:00.000Z",
+    "value": "13433.900000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-11T06:00:00.000Z",
+    "value": "13377.400000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-10T06:00:00.000Z",
+    "value": "13325.100000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-09T06:00:00.000Z",
+    "value": "13270.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-08T06:00:00.000Z",
+    "value": "13214.800000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-07T06:00:00.000Z",
+    "value": "13157.800000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-06T06:00:00.000Z",
+    "value": "13086.400000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-05T06:00:00.000Z",
+    "value": "13022.700000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-04T06:00:00.000Z",
+    "value": "12953.100000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-03T06:00:00.000Z",
+    "value": "12884.700000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-02T06:00:00.000Z",
+    "value": "12832.800000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-04-01T06:00:00.000Z",
+    "value": "12787.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-03-31T06:00:00.000Z",
+    "value": "12736.300000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-03-30T06:00:00.000Z",
+    "value": "12686.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-03-29T06:00:00.000Z",
+    "value": "12631.600000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-03-28T06:00:00.000Z",
+    "value": "12574.700000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-03-07T06:00:00.000Z",
+    "value": "11415.700000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-03-06T06:00:00.000Z",
+    "value": "11330.700000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-03-05T06:00:00.000Z",
+    "value": "11251.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-03-04T06:00:00.000Z",
+    "value": "11172.400000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-03-03T06:00:00.000Z",
+    "value": "11087.600000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-03-02T06:00:00.000Z",
+    "value": "11001.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-03-01T06:00:00.000Z",
+    "value": "10914.800000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-28T06:00:00.000Z",
+    "value": "10829.800000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-27T06:00:00.000Z",
+    "value": "10746.600000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-26T06:00:00.000Z",
+    "value": "10685.300000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-25T06:00:00.000Z",
+    "value": "10628.100000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-24T06:00:00.000Z",
+    "value": "10572.100000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-23T06:00:00.000Z",
+    "value": "10506.900000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-22T06:00:00.000Z",
+    "value": "10449.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-21T06:00:00.000Z",
+    "value": "10391.400000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-20T06:00:00.000Z",
+    "value": "10335.400000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-19T06:00:00.000Z",
+    "value": "10283.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-18T06:00:00.000Z",
+    "value": "10234.400000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-17T06:00:00.000Z",
+    "value": "10170.000000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-16T06:00:00.000Z",
+    "value": "10092.600000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-15T06:00:00.000Z",
+    "value": "10006.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-14T06:00:00.000Z",
+    "value": "9928.100000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-13T06:00:00.000Z",
+    "value": "9850.700000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-12T06:00:00.000Z",
+    "value": "9774.300000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-11T06:00:00.000Z",
+    "value": "9695.900000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-10T06:00:00.000Z",
+    "value": "9604.900000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-09T06:00:00.000Z",
+    "value": "9510.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-08T06:00:00.000Z",
+    "value": "9416.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-07T06:00:00.000Z",
+    "value": "9322.900000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-06T06:00:00.000Z",
+    "value": "9231.100000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-05T06:00:00.000Z",
+    "value": "9145.300000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-04T06:00:00.000Z",
+    "value": "9065.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-03T06:00:00.000Z",
+    "value": "8985.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-02T06:00:00.000Z",
+    "value": "8906.800000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-02-01T06:00:00.000Z",
+    "value": "8820.300000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-31T06:00:00.000Z",
+    "value": "8736.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-30T06:00:00.000Z",
+    "value": "8647.800000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-29T06:00:00.000Z",
+    "value": "8562.100000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-28T06:00:00.000Z",
+    "value": "8477.100000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-27T06:00:00.000Z",
+    "value": "8389.000000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-26T06:00:00.000Z",
+    "value": "8299.400000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-25T06:00:00.000Z",
+    "value": "8212.600000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-24T06:00:00.000Z",
+    "value": "8126.600000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-23T06:00:00.000Z",
+    "value": "8036.900000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-22T06:00:00.000Z",
+    "value": "7972.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-21T06:00:00.000Z",
+    "value": "7909.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-20T06:00:00.000Z",
+    "value": "7839.400000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-19T06:00:00.000Z",
+    "value": "7770.900000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-18T06:00:00.000Z",
+    "value": "7692.000000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-17T06:00:00.000Z",
+    "value": "7629.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-16T06:00:00.000Z",
+    "value": "7566.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-15T06:00:00.000Z",
+    "value": "7511.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-14T06:00:00.000Z",
+    "value": "7456.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-13T06:00:00.000Z",
+    "value": "7395.400000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-12T06:00:00.000Z",
+    "value": "7331.900000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-11T06:00:00.000Z",
+    "value": "7268.600000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-10T06:00:00.000Z",
+    "value": "7206.600000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-09T06:00:00.000Z",
+    "value": "7143.400000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-08T06:00:00.000Z",
+    "value": "7090.500000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-07T06:00:00.000Z",
+    "value": "7040.200000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  },
+  {
+    "time": "2023-01-06T06:00:00.000Z",
+    "value": "6984.600000000000000",
+    "addr": "/10.9.2/PF1",
+    "meter": "27ZG100Z0020304R",
+    "type": "provider_value",
+    "var": "core"
+  }
+]
