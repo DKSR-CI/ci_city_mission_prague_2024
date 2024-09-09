@@ -1,0 +1,11 @@
+streamlit
+folium
+geopandas
+plotly
+shapely
+streamlit-folium
+pillow
+osmnx
+tqdm
+googletrans==3.1.0-alpha
+meteostat==1.6.7
