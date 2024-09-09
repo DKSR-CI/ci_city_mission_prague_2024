@@ -1,4 +1,3 @@
-
 import os
 from pathlib import Path
 from typing import List
@@ -6,6 +5,9 @@ from typing import List
 from tqdm import tqdm
 import pandas as pd
 
+
+#######################################################################################
+#### BUILDING DATA
 
 def get_building_name_list(data_folder: Path):
     
@@ -68,3 +70,19 @@ def get_all_buildings_data_df(data_folder: Path):
         df[building_name] = temp_df["value"]
         
     return df
+
+
+#######################################################################################
+#### WEATHER DATA
+
+def get_weather_data_dict_of_dfs(data_folder: Path):
+    
+    weather_data = {}
+
+    for file in data_folder.glob("*"):
+        
+        station_id = file.name.split("_")[-1].split(".")[0]
+        
+        weather_data[station_id] = pd.read_parquet(file)
+    
+    return weather_data
