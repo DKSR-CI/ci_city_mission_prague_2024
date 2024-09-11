@@ -1,4 +1,5 @@
 import streamlit as st
+import folium
 from streamlit_folium import st_folium
 import pandas as pd
 import plotly.express as px
@@ -6,6 +7,7 @@ import os
 import sys
 import geopandas as gpd
 from PIL import Image
+from glob import glob
 
 sys.path.append("./src")
 import analyse_heatwaves as hw_functions
@@ -17,6 +19,24 @@ divider_color = 'red'
 
 # Data
 DATA_DIR = "./data"
+REPROJECTED_LST_PATH = "data/processed/Prague_LC08_L1TP_192025_20180817_20200831_02_T1/LC08_L1TP_192025_20180817_20200831_02_T1_LST_reprojected_Prague.TIF"
+SENSOR_DIR = "data/processed/microclimate_sensors"
+
+st.session_state.stations, _ = hw_functions.get_stations_from_location(location="Prague", 
+                                                                       max_distance=30000)
+st.session_state.stations_hw = hw_functions.compute_heat_stats_stations(st.session_state.stations,
+                                                                        start=2003,
+                                                                        end=2024) 
+st.session_state.station_comparison_location = hw_functions.compare_parameter_stations(
+    st.session_state.stations,
+    start=2003,
+    end=2024) #displayed as a carpet plot in col2
+
+st.session_state.lst_gdf = gpd.read_feather("data/processed/Prague_districts_lst.feather")
+
+air_temp_hourly_path = glob(os.path.join(SENSOR_DIR, "air_temp*hourly.csv"))[0]
+st.session_state.air_temp_hourly = pd.read_csv(air_temp_hourly_path)
+st.dataframe(st.session_state.air_temp_hourly)
 
 ## Title
 IMG_DIR = "./data/raw"
@@ -49,25 +69,29 @@ with st.expander("""### :blue-background[What are heatwaves and why do they matt
     - **Hot Night**: A night where the minimum temperature exceeds 20°C (68°F).
     """)
 
+##### Prague Sensors
+st.session_state.m = folium.Map()
+st.session_state.m = hw_maps.add_lst_to_map(REPROJECTED_LST_PATH, st.session_state.m)
+st.session_state.m.fit_bounds(st.session_state.m.get_bounds())
+folium.LayerControl().add_to(st.session_state.m)
 
-##### City Scale
+city_data = st_folium(st.session_state.m, 
+                      use_container_width=True, 
+                      returned_objects=["last_object_clicked_popup"], 
+                      height=600)
+
+# hw_maps.plot_dots_on_districts(districts_gdf=st.session_state.lst_gdf, 
+#                                 gdf_color_column="lst_mean",
+#                                 points_gdf=points_this_hour, 
+#                                 color_col="air_temp200")
+
+# m = hw_maps.map_stations_with_stats(st.session_state.stations_hw, start_zoom=10)
+
+
+
+##### Historical Data
 st.header("Heatwaves over the last 20 years", divider=divider_color)
 
-# Get Data
-st.text_input(label="Search for any City",
-                value="Prague",
-                key="location")
-
-st.session_state.stations, _ = hw_functions.get_stations_from_location(location=st.session_state.location, 
-                                                                       max_distance=30000,)
-
-st.session_state.stations_hw = hw_functions.compute_heat_stats_stations(st.session_state.stations,
-                                                                        start=2003,
-                                                                        end=2024) 
-st.session_state.station_comparison_location = hw_functions.compare_parameter_stations(
-    st.session_state.stations,
-    start=2003,
-    end=2024) #displayed as a carpet plot in col2
 
 col1, col2 = st.columns([1,1])
 with col1:
@@ -75,7 +99,7 @@ with col1:
     m = hw_maps.map_stations_with_stats(st.session_state.stations_hw, start_zoom=10)
     city_data = st_folium(m, use_container_width=True, returned_objects=["last_object_clicked_popup"], height=400)
 
-    st.subheader(f"Heatwave statistics for different stations around {st.session_state.location}")
+    st.subheader(f"Heatwave statistics for different stations around Prague")
     params = list(st.session_state.station_comparison_location.keys())
     st.selectbox("select a parameter to compare", options=params, index=3, key="station_comparison_parameter")
     station_comparison_to_plot = st.session_state.station_comparison_location[st.session_state.station_comparison_parameter]
@@ -108,20 +132,6 @@ with col2:
     else:
         st.subheader("Click on a station for more information")
         
-
-##### Load Hourly Data
-st.header("Prague Measurement Campaign")
-st.session_state.lst_gdf = gpd.read_feather("data/processed/Prague_districts_lst.feather")
-
-hw_maps.plot_dots_on_districts(districts_gdf=st.session_state.lst_gdf, 
-                                gdf_color_column="lst_mean",
-                                points_gdf=points_this_hour, 
-                                color_col="air_temp200")
-
-    m = hw_maps.map_stations_with_stats(st.session_state.stations_hw, start_zoom=10)
-    city_data = st_folium(m, use_container_width=True, returned_objects=["last_object_clicked_popup"], height=400)
-
-
 # Footer
 st.subheader("", divider=divider_color)
 
