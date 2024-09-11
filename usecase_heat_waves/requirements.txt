@@ -8,4 +8,6 @@ pillow
 osmnx
 tqdm
 googletrans==3.1.0-alpha
+xarray
+rioxarray
 meteostat==1.6.7
