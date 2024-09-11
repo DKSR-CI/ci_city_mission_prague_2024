@@ -176,7 +176,7 @@ def plot_monthly_heatwave_days(daily_data):
 
     return fig
 
-def plot_heatwaves(heatwaves_df:pd.DataFrame):
+def plot_heatwaves(heatwaves_df:pd.DataFrame, location:str=""):
     """A stacked bar plot showing individual heatwave events by length and maximum temperature
 
     Args:
@@ -188,12 +188,12 @@ def plot_heatwaves(heatwaves_df:pd.DataFrame):
     hw = heatwaves_df.copy()
     hw['start_date'] = hw['start_date'].dt.strftime('%d.%m.%Y')
     hw['end_date'] = hw['end_date'].dt.strftime('%d.%m.%Y')
-
+    location_str = f"{location}: "
     fig = px.bar(data_frame=hw,
             x="year", 
             y="duration", 
             color="tmax",
-            title="Heatwave Length and Max. Temperature",
+            title=f"{location_str}Heatwave Length and Max. Temperature",
             color_continuous_scale="YlOrRd",
             template="plotly_white",
             text="tmax",
@@ -261,6 +261,9 @@ def plot_hourly_carpet(df:pd.DataFrame,
     if col == "":
         return "Please specify a column"
     else:
+        if df.columns.dtype != str:
+            df.rename({c:str(c) for c in df.columns})
+        
         long_df = pd.DataFrame(df.loc[:, col])
         long_df.index = pd.to_datetime(long_df.index)
         long_df.columns = ["value"]

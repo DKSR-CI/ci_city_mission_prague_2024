@@ -9,7 +9,7 @@ import osmnx as ox
 import plotly.subplots as sp
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
-
+import branca.colormap as cm
 import sys
 from dotenv import load_dotenv
 
@@ -257,14 +257,17 @@ def plot_dot(this_map, point, color_map, color_col):
                         tooltip=point_tooltip,
                         weight=1).add_to(this_map)
 
-def plot_dots_on_districts(districts_gdf, points_gdf=None, color_col=None):
+def plot_dots_on_districts(districts_gdf, 
+                           gdf_color_column="lst_mean", 
+                           points_gdf=None, 
+                           color_col=None, save_path=""):
     # Create a map
     this_map = folium.Map(prefer_canvas=True)
 
     # Add districts tooltip (hover text)
-    districts_tooltip = folium.GeoJsonTooltip(
-        fields=["id", "name", "slug"],
-        aliases=["ID:", "Name:", "Slug:"],
+    districts_popup = folium.GeoJsonPopup(
+        fields=["name", "lst_max", "lst_mean", "lst_min"],
+        aliases=["Name:", "LST max:", "LST mean:", "LST min:"],
         localize=True,
         sticky=False,
         labels=True,
@@ -273,11 +276,24 @@ def plot_dots_on_districts(districts_gdf, points_gdf=None, color_col=None):
         max_width=800,
     )
 
+    # Create colormap for lst
+    colormap = cm.LinearColormap(
+        colors=['blue', 'cyan', 'yellow', 'orange', 'red'],
+        index=[20, 25, 28, 32, 40], vmin=20, vmax=50,
+        caption=gdf_color_column)
+    districts_dict = districts_gdf.set_index(districts_gdf.index.astype(str))[gdf_color_column]
+    color_dict = {key: colormap(districts_dict[key]) for key in districts_dict.keys()}
+    colormap.add_to(this_map)
+
     # Add districts
     folium.GeoJson(
         data=districts_gdf,
-        style_function=lambda x: {'fillColor': 'white', 'color': 'black'},
-        tooltip=districts_tooltip
+        zoom_on_click=True,
+        style_function=lambda x: {'fillColor': color_dict[x["id"]], 
+                                  "fillOpacity":0.5,
+                                  'color': color_dict[x["id"]],
+                                  'weight':1},
+        popup=districts_popup
     ).add_to(this_map)
 
     # Add Points with color based on the specified column
@@ -286,12 +302,14 @@ def plot_dots_on_districts(districts_gdf, points_gdf=None, color_col=None):
         norm = plt.Normalize(vmin=points_gdf[color_col].min(), vmax=points_gdf[color_col].max())
         cmap = plt.get_cmap('viridis')  # You can choose another colormap if you prefer
         color_map = plt.cm.ScalarMappable(norm=norm, cmap=cmap).to_rgba
+        color_map.add_to(this_map)
         points_gdf.apply(lambda point: plot_dot(this_map, point, color_map, color_col), axis=1)
 
     # Set the zoom to the maximum possible
     this_map.fit_bounds(this_map.get_bounds())
 
     # Save the map to an HTML file (optional)
-    # this_map.save(os.path.join('html_map_output/simple_dot_plot.html'))
+    if save_path != "":
+        this_map.save(save_path)
 
     return this_map
