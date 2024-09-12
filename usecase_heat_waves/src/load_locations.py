@@ -192,7 +192,7 @@ def get_measure(ids:list[int], measure: str,
             os.mkdir(save_path)
         df_hourly.to_csv(os.path.join(save_path, f"{measure}_{date_str}_hourly.csv"))
         df_daily.to_csv(os.path.join(save_path, f"{measure}_{date_str}_daily.csv"))
-        print("wrote hourly and daily files to ../data/interim")
+        print(f"wrote hourly and daily files to {save_path}")
     
     return df_hourly, df_daily, metadata_df
     
