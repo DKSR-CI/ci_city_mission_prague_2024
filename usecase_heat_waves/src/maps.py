@@ -235,17 +235,24 @@ def map_choropleth_age(source_gdf,
 
     return fig
 
-def plot_dot(this_map, point, color_map, color_col):
+def plot_dot(this_map, point, color_map, color_col=""):
     '''input: series that contains a numeric named latitude and a numeric named longitude
     this function creates a CircleMarker and adds it to your this_map'''
     
     # Define a tooltip for the CircleMarker
+    if color_col != "":
+        color_line = f"<b>{color_col}:</b> {point[color_col]}<br>"
+    else: 
+        color_line = ""
+    
     point_tooltip = folium.Tooltip(
         text=(
-            f"<b>{color_col}:</b> {point[color_col]}<br>"
+            color_line +
             f"<b>Point Name:</b> {point['point_name']}<br>"
             f"<b>Point ID:</b> {point['point_id']}<br>"
             f"<b>Location ID:</b> {point['location_id']}<br>"
+            f"<b>Location DescriptionLocation ID:</b> {point['loc_description']}<br>" 
+            f"<b>Sensor Position:</b> {point['sensor_position_detail']}<br>"
             f"<b>Orientation:</b> {point['loc_orientation']}<br>"
             f"<b>Surface:</b> {point['loc_surface']}"
         ),
@@ -253,14 +260,85 @@ def plot_dot(this_map, point, color_map, color_col):
     )
 
     # Get the color from the discrete color map
-    color = mcolors.to_hex(color_map(point[color_col]))
-        
+    if color_map is not None:
+        color = mcolors.to_hex(color_map(point[color_col]))
+    else: 
+        color = "white"
+
     folium.CircleMarker(location=[point.lat, point.lng],
                         radius=5,
                         fill_color=color,
                         fill_opacity=1,
                         tooltip=point_tooltip,
-                        weight=1).add_to(this_map)
+                        weight=1,
+                        zoom_on_click=True).add_to(this_map)
+
+
+    
+def districts_gdf_to_folium_layer(districts_gdf, gdf_color_column=""):
+        # Add districts tooltip (hover text)
+        d_popup = folium.GeoJsonPopup(
+            fields=["name", "lst_max", "lst_mean", "lst_min"],
+            aliases=["Name:", "LST max:", "LST mean:", "LST min:"],
+            localize=True,
+            sticky=False,
+            labels=True,
+            style="""
+                background-color: #F0EFEF;    """,
+            max_width=800,
+        )
+        
+        if gdf_color_column != "":
+            # Create colormap for lst
+            colormap = cm.LinearColormap(
+                colors=['blue', 'cyan', 'yellow', 'orange', 'red'],
+                index=[9, 20, 28, 32, 40], vmin=20, vmax=50,
+                caption=gdf_color_column)
+            districts_dict = districts_gdf.set_index(districts_gdf.index.astype(str))[gdf_color_column]
+            color_dict = {key: colormap(float(districts_dict[key])) for key in districts_dict.keys()}
+            
+            # Add districts
+            geojson_layer = folium.GeoJson(
+                name=f"Districts + {gdf_color_column}",
+                data=districts_gdf,
+                zoom_on_click=True,
+                style_function=lambda x: {#'fillColor': color_dict[x["id"]], 
+                                        "fillOpacity":0,
+                                        'color': color_dict[x["id"]],
+                                        'weight':1},
+                popup=d_popup,
+                show=True
+            )
+
+            return geojson_layer, colormap
+    
+        else:
+            # Add districts
+            geojson_layer = folium.GeoJson(
+                name="districts",
+                data=districts_gdf,
+                zoom_on_click=True,
+                style_function=lambda x: {"fillOpacity":0,
+                                        'color': "black",
+                                        'weight':1},
+                popup=d_popup,
+                show=True
+            )
+
+            return geojson_layer
+
+def add_gdf_points_to_map(this_map,
+                         points_gdf,
+                         color_col:str="",):
+    if color_col != "":
+        # Normalize the data for the color map
+        norm = plt.Normalize(vmin=points_gdf[color_col].min(), vmax=points_gdf[color_col].max())
+        cmap = plt.get_cmap('viridis')  # You can choose another colormap if you prefer
+        color_map = plt.cm.ScalarMappable(norm=norm, cmap=cmap).to_rgba
+    else:
+        color_map = None
+    
+    points_gdf.apply(lambda point: plot_dot(this_map, point, color_map, color_col), axis=1)
 
 def plot_dots_on_districts(districts_gdf=None, 
                            gdf_color_column="lst_mean", 
@@ -272,37 +350,13 @@ def plot_dots_on_districts(districts_gdf=None,
     if this_map is None:
         this_map = folium.Map(prefer_canvas=True)
 
-    # Add districts tooltip (hover text)
-    districts_popup = folium.GeoJsonPopup(
-        fields=["name", "lst_max", "lst_mean", "lst_min"],
-        aliases=["Name:", "LST max:", "LST mean:", "LST min:"],
-        localize=True,
-        sticky=False,
-        labels=True,
-        style="""
-            background-color: #F0EFEF;    """,
-        max_width=800,
-    )
     if districts_gdf is not None:
-        # Create colormap for lst
-        colormap = cm.LinearColormap(
-            colors=['blue', 'cyan', 'yellow', 'orange', 'red'],
-            index=[20, 25, 28, 32, 40], vmin=20, vmax=50,
-            caption=gdf_color_column)
-        districts_dict = districts_gdf.set_index(districts_gdf.index.astype(str))[gdf_color_column]
-        color_dict = {key: colormap(districts_dict[key]) for key in districts_dict.keys()}
-        colormap.add_to(this_map)
-
-        # Add districts
-        folium.GeoJson(
-            data=districts_gdf,
-            zoom_on_click=True,
-            style_function=lambda x: {'fillColor': color_dict[x["id"]], 
-                                    "fillOpacity":0.5,
-                                    'color': color_dict[x["id"]],
-                                    'weight':1},
-            popup=districts_popup
-        ).add_to(this_map)
+        districts_layer, districts_colormap = districts_gdf_to_folium_layer(
+            districts_gdf=districts_gdf, 
+            gdf_color_column=gdf_color_column)
+        
+        districts_layer.add_to(this_map)
+        districts_colormap.add_to(this_map)
 
     # Add Points with color based on the specified column
     if points_gdf is not None:
@@ -385,6 +439,7 @@ def add_lst_to_map(lst_path, m):
         interactive=True,
         cross_origin=False,
         zindex=1,
+        name="Land Surface Temperature 10:00, 17.08.2018"
     )
     img_overlay.add_to(m)
 
