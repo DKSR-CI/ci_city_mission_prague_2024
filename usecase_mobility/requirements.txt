@@ -1,0 +1,17 @@
+ipywidgets==7.8.1
+ipykernel==6.25.0
+keplergl
+numpy
+pandas
+geopandas
+shapely
+matplotlib
+seaborn
+requests
+typing
+folium
+osmnx
+networkx
+h3
+shapely
+plotly
