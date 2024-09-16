@@ -34,13 +34,28 @@ def get_building_metadata_df(data_folder: Path,
 def get_building_data_raw_files(data_folder: Path,
                                 building_name: str):
     
-    json_files = data_folder.joinpath(building_name).glob("*.json")
+    data_files = data_folder.joinpath(building_name).glob("*")
     
     dfs = []
-    for file in json_files:
-        temp_df = pd.read_json(file,
-                               convert_dates=["time"])
-        temp_df.set_index("time", inplace=True)
+    for file in data_files:
+        
+        if file.name.endswith("json"):
+            temp_df = pd.read_json(file,
+                                   convert_dates=["time"])
+            temp_df.set_index("time", inplace=True)
+        elif file.name.endswith("xls"):
+            temp_df = pd.read_excel(file,
+                                    skiprows=11,
+                                    header=1)
+            temp_df.rename(columns={"Čas": "time",
+                                    "Stav provozní": "value"},
+                           inplace=True)
+            temp_df = temp_df[["time", "value"]]
+            # temp_df["time"] = pd.to_datetime(temp_df["time"], format="mixed")
+            temp_df.set_index("time", inplace=True)
+            
+        else:
+            raise RuntimeError("Unexpected file ending")
         
         dfs.append(temp_df)
         
