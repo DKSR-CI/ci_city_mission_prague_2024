@@ -10,6 +10,7 @@ from PIL import Image
 from glob import glob
 
 sys.path.append("./src")
+from load_arcgis import get_survey
 import analyse_heatwaves as hw_functions
 import plots as hw_plots
 import maps as hw_maps
