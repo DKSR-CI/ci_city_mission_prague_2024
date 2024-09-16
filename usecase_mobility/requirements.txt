@@ -14,5 +14,5 @@ osmnx
 networkx
 h3
 shapely
-sklearn
+scikit-learn
 plotly
