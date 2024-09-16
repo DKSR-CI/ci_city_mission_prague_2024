@@ -25,7 +25,7 @@ def get_building_metadata_df(data_folder: Path,
         building_ids = [b.split("-")[0] for b in building_list]
         pat = '|'.join(r"\b{}\b".format(x) for x in building_ids)
         
-        df = df.loc[df["Měřidlo"].str.contains(pat), :]
+        df = df.loc[df["Addr meter"].str.contains(pat), :]
         df
     
     return df
