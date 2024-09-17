@@ -4,3 +4,4 @@ plotly
 openpyxl
 tqdm==4.66.5
 pyarrow==17.0.0
+xlrd==2.0.1

@@ -86,12 +86,20 @@ def get_all_buildings_data_df(data_folder: Path):
     
     building_names = get_building_name_list(data_folder)
 
-    df = pd.DataFrame()
+    dfs = []
+    column_names = []
     for building_name in tqdm(building_names, desc="Loading single building data"):
         temp_df = get_building_data_df(data_folder, building_name)
-        df[building_name] = temp_df["value"]
         
-    return df
+        dfs.append(temp_df["value"])
+        column_names.append(building_name)
+        
+    temp_df = pd.concat(dfs, axis=1)
+    temp_df.columns = column_names
+    temp_df.index = pd.to_datetime(temp_df.index, utc=True)
+    temp_df.sort_index(inplace=True)
+        
+    return temp_df
 
 
 #######################################################################################
