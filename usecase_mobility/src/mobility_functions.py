@@ -59,3 +59,34 @@ def grid_lookup(G:nx.classes.multidigraph.MultiDiGraph) -> pd.DataFrame:
     #edge_grid_df = pd.merge(edge_grid_df,name_shape_df,how='left',on='edge')
 
     return edge_grid_df
+
+
+def get_name_shape(G:nx.classes.multidigraph.MultiDiGraph) -> pd.DataFrame:
+    nodes = ox.graph_to_gdfs(G, edges=False)
+    nodes_dict = nodes.to_dict()
+
+    G_edges = list(G.edges())
+    G_shapes = []
+    G_names = []
+    for edge in G_edges:
+        try:
+            name_i = G.get_edge_data(edge[0],edge[1])[0]['name']
+            G_names.append(name_i)
+        except:
+            G_names.append(None)
+        try:
+            shape_i = G.get_edge_data(edge[0],edge[1])[0]['geometry']
+            G_shapes.append(shape_i)
+        except:
+            start = (nodes_dict['x'][edge[0]],nodes_dict['y'][edge[0]])
+            end = (nodes_dict['x'][edge[1]],nodes_dict['y'][edge[1]])
+            G_shapes.append(LineString([start,end]))
+
+    #G_edges = [str(edge) for edge in G_edges]
+    #G_shapes = [str(edge) for edge in G_shapes]
+    #G_names = [str(edge) for edge in G_names]
+
+    name_shape_df = pd.DataFrame({'edge':G_edges, 'name':G_names, 'shape':G_shapes})
+    #edge_name_dict = dict(zip(G_edges,G_names))
+    #edge_shape_dict = dict(zip(G_edges,G_shapes))
+    return name_shape_df

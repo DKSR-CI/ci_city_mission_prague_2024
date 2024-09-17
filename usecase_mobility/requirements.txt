@@ -16,3 +16,4 @@ h3
 shapely
 scikit-learn
 plotly
+psycopg2
