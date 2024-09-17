@@ -54,7 +54,7 @@ def get_building_data_raw_files(data_folder: Path,
             
             temp_df = temp_df.iloc[:temp_df[(temp_df["time"] == "Celkem") == True].index.tolist()[0]]
             
-            temp_df["time"] = pd.to_datetime(temp_df["time"], format="mixed")
+            temp_df["time"] = pd.to_datetime(temp_df["time"], format="%d.%m.%Y %H:%M")
             temp_df["time"] = temp_df["time"].dt.tz_localize("CET", ambiguous="NaT", nonexistent="shift_forward")
             
             temp_df.dropna(axis=0, inplace=True)
