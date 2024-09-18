@@ -1,12 +1,16 @@
 from arcgis.gis import GIS
-import os
+import os, re, _csv
 from dotenv import load_dotenv
 load_dotenv()
 
 ARCGIS_USER = os.getenv("ARCGIS_USER")
 ARCGIS_PASSWORD = os.getenv("ARCGIS_PASSWORD")
 
-def get_survey(arcgis_user:str, arcgis_password:str, title: str="Thermal Comfort Survey"):
+def get_survey(arcgis_user:str, 
+               arcgis_password:str, 
+               title: str="Thermal Comfort Survey", 
+               save_path:str="",
+               store_csv_w_attachments:bool=False):
     # Sign in to ArcGIS Online
     gis = GIS("https://www.arcgis.com", arcgis_user, arcgis_password)
     # Access the Survey123 feature layer

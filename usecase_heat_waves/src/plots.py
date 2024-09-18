@@ -261,9 +261,9 @@ def plot_hourly_carpet(df:pd.DataFrame,
     if col == "":
         return "Please specify a column"
     else:
-        if df.columns.dtype != str:
-            df.rename({c:str(c) for c in df.columns})
-        
+        if df.columns.dtype != "str":
+            df = df.rename(columns={c: str(c) for c in df.columns})
+
         long_df = pd.DataFrame(df.loc[:, col])
         long_df.index = pd.to_datetime(long_df.index)
         long_df.columns = ["value"]

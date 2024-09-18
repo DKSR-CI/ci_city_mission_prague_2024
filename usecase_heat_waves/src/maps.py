@@ -275,11 +275,14 @@ def plot_dot(this_map, point, color_map, color_col=""):
 
 
     
-def districts_gdf_to_folium_layer(districts_gdf, gdf_color_column=""):
+def districts_gdf_to_folium_layer(districts_gdf, 
+                                gdf_color_column="",
+                                fields=["name", "lst_max", "lst_mean", "lst_min"],
+                                aliases=["Name:", "LST max:", "LST mean:", "LST min:"]):
         # Add districts tooltip (hover text)
         d_popup = folium.GeoJsonPopup(
-            fields=["name", "lst_max", "lst_mean", "lst_min"],
-            aliases=["Name:", "LST max:", "LST mean:", "LST min:"],
+            fields=fields,
+            aliases=aliases,
             localize=True,
             sticky=False,
             labels=True,
