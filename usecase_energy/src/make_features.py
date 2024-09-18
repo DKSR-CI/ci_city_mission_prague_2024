@@ -16,7 +16,7 @@ def compute_time_features(df_in: pd.DataFrame,
         time_col = df.index
     else:
         time_col = df["time"].dt
-    
+    print(hd)
     df["year"] = time_col.year
     df["month"] = time_col.month
     df["day"] = time_col.day
@@ -26,17 +26,13 @@ def compute_time_features(df_in: pd.DataFrame,
     df["day_of_week"] = time_col.weekday
     df["is_weekend"] = time_col.weekday >= 5
     df["hour_of_week"] = df["day_of_week"] * 24 + df["hour"]
-    df["is_holiday"] = df["time_col"].isin(hd)
+
+    if use_datetimeindex:
+        df['time'] = df.index
+        df['time'] = pd.to_datetime(df['time']).dt.date
+        df["is_holiday"] = df['time'].isin(hd)
+        df = df.drop(columns={'time'})
+    else:
+        df['is_holiday'] = df['time'].isin(hd)
     
     return df
-
-
-def compute_mean_of_dict_of_dfs(dict_of_dfs: Dict[str, pd.DataFrame]) -> pd.DataFrame:
-
-    # Step 1: Concatenate all DataFrames along a new axis (axis=0 by default)
-    concatenated_df = pd.concat(dict_of_dfs.values(), axis=0)
-
-    # Step 2: Group by the index and calculate the mean for each cell
-    mean_df = concatenated_df.groupby(concatenated_df.index).mean()
-
-    return mean_df
