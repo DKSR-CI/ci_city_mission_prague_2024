@@ -85,103 +85,6 @@ with st.expander("""### :blue-background[What are heatwaves and why do they matt
     - **Hot Day**: A day where the maximum temperature exceeds 30°C (86°F).
     - **Hot Night**: A night where the minimum temperature exceeds 20°C (68°F).
     """)
- 
-##### Prague Sensors
-st.session_state.m = folium.Map()
-st.session_state.m = hw_maps.add_lst_to_map(REPROJECTED_LST_PATH, st.session_state.m)
-st.session_state.m.fit_bounds(st.session_state.m.get_bounds()) 
-
-# Add coloured districts 
-districts_layer, _ = hw_maps.districts_gdf_to_folium_layer(
-    districts_gdf=st.session_state.lst_gdf, 
-    gdf_color_column="lst_mean") 
-districts_layer.add_to(st.session_state.m)
-
-# Add Microclimate sensors
-hw_maps.add_gdf_points_to_map(points_gdf=st.session_state.sensor_info, 
-                              color_col="",
-                              this_map=st.session_state.m)
-
-left, right = st.columns([2, 1])
-with left:
-    # Display Map
-    folium.LayerControl().add_to(st.session_state.m) 
-    city_data = st_folium(st.session_state.m, 
-                        use_container_width=True, 
-                        returned_objects=["last_object_clicked_tooltip"], 
-                        height=600)
-with right:
-    lst_df = st.session_state.lst_gdf.drop(["geometry", "id", "district_id", "slug", "pixel_count", "updated_at", "band"], axis=1).set_index("name").sort_values("lst_mean")
-    # Statistics
-    district_lst_scatter = px.scatter(lst_df.iloc[:, :3], 
-                                      template="plotly_white", 
-                                      orientation="h",
-                                      title="Aggregate Land Surface Temperature per District")
-    # Proportion of area in certain temperature bands
-    district_lst_stacked_bar = px.bar(
-        lst_df.iloc[:, 4:], 
-        barmode="stack", 
-        orientation="h", 
-        template="plotly_white",
-        title="Proportion of area within certain temperature bands")
-    
-    st.plotly_chart(district_lst_scatter)
-    st.plotly_chart(district_lst_stacked_bar)
-
-left, right = st.columns([1, 1])
-with left:
-    # Temperature charts
-    hourly_temperature_plot = px.line(st.session_state.air_temp_hourly, 
-              color_discrete_sequence=px.colors.qualitative.Plotly,
-              title="Hourly Mean Temperature ")
-    hourly_temperature_plot.update_layout(
-        legend_title="Sensor"
-    )
-    # Delta charts
-    hourly_temperature_delta = px.line(df_delta, 
-              y=df_delta.columns, 
-              color_discrete_sequence=px.colors.qualitative.Plotly,
-              title="T_mean - T_sensor"
-              )
-              
-    hourly_temperature_delta.update_layout(
-        legend_title="Sensor"
-    )
-
-    # Plot
-    st.plotly_chart(hourly_temperature_plot)
-    st.plotly_chart(hourly_temperature_delta)
-
-
-with right:
-    # Select sensor to plot
-    sensors_with_data = st.session_state.air_temp_hourly.columns
-
-    sensor_id = st.radio(label="Select a sensor to plot", 
-                    horizontal=True,
-                    options=st.session_state.air_temp_hourly.columns)
-
-    if city_data["last_object_clicked_tooltip"]:
-        selected_sensor_on_map = city_data["last_object_clicked_tooltip"].split("Point ID: ")[1][:3]
-        if selected_sensor_on_map in sensors_with_data:
-            sensor_id = selected_sensor_on_map
-
-    st.table(st.session_state.sensor_info.set_index("point_id").loc[sensor_id,["loc_description", "sensor_position_detail"]]) 
-
-    # Temperature Scatter Plot
-    temperature_carpet = hw_plots.plot_hourly_carpet(
-        df=st.session_state.air_temp_hourly, 
-        unit="°C", 
-        title=f"Air Temperature <br>Point {sensor_id}", 
-        col=sensor_id)
-    st.plotly_chart(temperature_carpet)
-
-    temperature_diff_carpet = hw_plots.plot_hourly_carpet(
-        df=df_delta, 
-        unit="°C", 
-        title=f"Air Temperature <br>Mean - Point {sensor_id}", 
-        col=sensor_id)
-    st.plotly_chart(temperature_diff_carpet)    
 
 
 ##### Historical Data
@@ -227,6 +130,104 @@ with col2:
     else:
         st.subheader("Click on a station for more information")
         
+        
+##### Prague Sensors
+st.session_state.m = folium.Map()
+st.session_state.m = hw_maps.add_lst_to_map(REPROJECTED_LST_PATH, st.session_state.m)
+st.session_state.m.fit_bounds(st.session_state.m.get_bounds()) 
+
+# Add coloured districts 
+districts_layer, _ = hw_maps.districts_gdf_to_folium_layer(
+    districts_gdf=st.session_state.lst_gdf, 
+    gdf_color_column="lst_mean") 
+districts_layer.add_to(st.session_state.m)
+
+# Add Microclimate sensors
+hw_maps.add_gdf_points_to_map(points_gdf=st.session_state.sensor_info, 
+                              color_col="",
+                              this_map=st.session_state.m)
+
+# Display Map
+folium.LayerControl().add_to(st.session_state.m) 
+city_data = st_folium(st.session_state.m, 
+                    use_container_width=True, 
+                    returned_objects=["last_object_clicked_tooltip"], 
+                    height=600)
+
+left, right = st.columns([1, 1])
+with left:
+    lst_df = st.session_state.lst_gdf.drop(["geometry", "id", "district_id", "slug", "pixel_count", "updated_at", "band"], axis=1).set_index("name").sort_values("lst_mean")
+    # Statistics
+    district_lst_scatter = px.scatter(lst_df.iloc[:, :3], 
+                                      template="plotly_white", 
+                                      orientation="h",
+                                      title="Aggregate Land Surface Temperature per District")
+    st.plotly_chart(district_lst_scatter)
+with right:
+    # Proportion of area in certain temperature bands
+    district_lst_stacked_bar = px.bar(
+        lst_df.iloc[:, 4:], 
+        barmode="stack", 
+        orientation="h", 
+        template="plotly_white",
+        title="Proportion of area within certain temperature bands")
+    st.plotly_chart(district_lst_stacked_bar)
+
+left, right = st.columns([1, 1])
+with left:
+    # Temperature charts
+    hourly_temperature_plot = px.line(st.session_state.air_temp_hourly, 
+              color_discrete_sequence=px.colors.qualitative.Plotly,
+              title="Hourly Mean Temperature ")
+    hourly_temperature_plot.update_layout(
+        legend_title="Sensor"
+    )
+    # Delta charts
+    hourly_temperature_delta = px.line(df_delta, 
+              y=df_delta.columns, 
+              color_discrete_sequence=px.colors.qualitative.Plotly,
+              title="T_mean - T_sensor"
+              )
+              
+    hourly_temperature_delta.update_layout(
+        legend_title="Sensor"
+    )
+
+    # Plot
+    st.plotly_chart(hourly_temperature_plot)
+    st.plotly_chart(hourly_temperature_delta)
+
+with right:
+    # Select sensor to plot
+    sensors_with_data = st.session_state.air_temp_hourly.columns
+
+    sensor_id = st.radio(label="Select a sensor to plot", 
+                    horizontal=True,
+                    options=st.session_state.air_temp_hourly.columns)
+
+    if city_data["last_object_clicked_tooltip"]:
+        selected_sensor_on_map = city_data["last_object_clicked_tooltip"].split("Point ID: ")[1][:3]
+        if selected_sensor_on_map in sensors_with_data:
+            sensor_id = selected_sensor_on_map 
+
+    st.table(st.session_state.sensor_info.set_index("point_id").loc[sensor_id,["loc_description", "sensor_position_detail"]]) 
+
+    # Temperature Scatter Plot
+    temperature_carpet = hw_plots.plot_hourly_carpet(
+        df=st.session_state.air_temp_hourly, 
+        unit="°C", 
+        title=f"Air Temperature <br>Point {str(sensor_id)}", 
+        col=sensor_id)
+    st.plotly_chart(temperature_carpet)
+
+    temperature_diff_carpet = hw_plots.plot_hourly_carpet(
+        df=df_delta, 
+        unit="°C", 
+        title=f"Air Temperature <br>Mean - Point {sensor_id}", 
+        col=sensor_id)
+    st.plotly_chart(temperature_diff_carpet)    
+
+
 # Footer
 st.subheader("", divider=divider_color)
 
