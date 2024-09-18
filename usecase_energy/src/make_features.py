@@ -21,6 +21,7 @@ def compute_time_features(df_in: pd.DataFrame,
     df["month"] = time_col.month
     df["day"] = time_col.day
     df["hour"] = time_col.hour
+    df["day_of_week_name"] = time_col.day_name()
     df["day_of_year"] = time_col.day_of_year
     df["week_of_year"] = time_col.isocalendar().week
     df["day_of_week"] = time_col.weekday
