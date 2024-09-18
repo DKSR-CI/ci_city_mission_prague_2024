@@ -26,7 +26,7 @@ def compute_time_features(df_in: pd.DataFrame,
     df["day_of_week"] = time_col.weekday
     df["is_weekend"] = time_col.weekday >= 5
     df["hour_of_week"] = df["day_of_week"] * 24 + df["hour"]
-    df["is_holiday"] = df["time_col"].isin(hd)
+    # df["is_holiday"] = df["time_col"].isin(hd)
     
     return df
 
