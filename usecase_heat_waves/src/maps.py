@@ -245,20 +245,6 @@ def plot_dot(this_map, point, color_map, color_col=""):
         color_line = f"<b>{color_col}:</b> {point[color_col]}<br>"
     else: 
         color_line = ""
-    
-    point_tooltip = folium.Tooltip(
-        text=(
-            color_line +
-            f"<b>Point Name:</b> {point['point_name']}<br>"
-            f"<b>Point ID:</b> {point['point_id']}<br>"
-            f"<b>Location ID:</b> {point['location_id']}<br>"
-            f"<b>Location DescriptionLocation ID:</b> {point['loc_description']}<br>" 
-            f"<b>Sensor Position:</b> {point['sensor_position_detail']}<br>"
-            f"<b>Orientation:</b> {point['loc_orientation']}<br>"
-            f"<b>Surface:</b> {point['loc_surface']}"
-        ),
-        sticky=False
-    )
 
     # Get the color from the discrete color map
     if color_map is not None:
@@ -266,11 +252,32 @@ def plot_dot(this_map, point, color_map, color_col=""):
     else: 
         color = "white"
 
-    folium.CircleMarker(location=[point.lat, point.lng],
+    try:
+        point_tooltip = folium.Tooltip(
+            text=(
+                color_line +
+                f"<b>Point Name:</b> {point['point_name']}<br>"
+                f"<b>Point ID:</b> {point['point_id']}<br>"
+                f"<b>Location ID:</b> {point['location_id']}<br>"
+                f"<b>Location DescriptionLocation ID:</b> {point['loc_description']}<br>" 
+                f"<b>Sensor Position:</b> {point['sensor_position_detail']}<br>"
+                f"<b>Orientation:</b> {point['loc_orientation']}<br>"
+                f"<b>Surface:</b> {point['loc_surface']}"
+            ),
+            sticky=False
+        )
+        folium.CircleMarker(location=[point.lat, point.lng],
                         radius=5,
                         fill_color=color,
                         fill_opacity=1,
                         tooltip=point_tooltip,
+                        weight=1,
+                        zoom_on_click=True).add_to(this_map)
+    except:
+        folium.CircleMarker(location=[point.lat, point.lng],
+                        radius=5,
+                        fill_color=color,
+                        fill_opacity=1,
                         weight=1,
                         zoom_on_click=True).add_to(this_map)
 
@@ -357,6 +364,8 @@ def add_gdf_points_to_map(this_map,
         color_map = None
     
     points_gdf.apply(lambda point: plot_dot(this_map, point, color_map, color_col), axis=1)
+    return this_map
+
 
 def plot_dots_on_districts(districts_gdf=None, 
                            gdf_color_column="lst_mean", 

@@ -55,10 +55,11 @@ st.session_state.sensor_info = gpd.read_file(os.path.join(SENSOR_DIR, "microclim
 if st.session_state.sensor_info.crs is None:
     st.session_state.sensor_info = st.session_state.sensor_info.set_crs("EPSG:4326")
 
-## Title
+# Logo
 IMG_DIR = "./data/raw"
 dksr_logo = Image.open(os.path.join(IMG_DIR, "logo_dksr.png"))
 
+## Title
 header1, header2 = st.columns([5,1])
 with header1:
     st.write("""
