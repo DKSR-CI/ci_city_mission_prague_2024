@@ -126,7 +126,7 @@ with col2:
                 highlight_column="tmax>30", ),
             use_container_width=True 
         )
-        st.plotly_chart(hw_plots.plot_heatwaves(st.session_state.heatwaves))
+        st.plotly_chart(hw_plots.plot_heatwaves(st.session_state.heatwaves, location=station_name))
     else:
         st.subheader("Click on a station for more information")
         
