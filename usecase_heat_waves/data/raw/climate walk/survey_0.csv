@@ -1,0 +1,171 @@
+﻿ObjectID,GlobalID,Shape__Area,Shape__Length,CreationDate,Creator,EditDate,Editor,Rate your Thermal Comfort right now,Describe this spot,How is this spot relative to previous spots,Describe this spot,Gender
+3,c28a7fc1-11af-4751-8592-924da49e9c81,1.7792144149098E-06,0.00574554363597599,9/13/2024 2:00:18 PM,,9/13/2024 2:00:18 PM,,,,,,
+4,7cad97d5-6536-47c0-88be-31622c86f5c2,1.38414057460068E-06,0.00539201485642717,9/17/2024 12:06:02 PM,,9/17/2024 12:06:02 PM,,,,Somewhat Cooler,In_the_shade,Male
+5,3dad3d7f-d1c9-4618-84dd-3989477a4ad2,,,9/17/2024 12:25:02 PM,,9/17/2024 12:25:02 PM,,,,Same,,
+6,151db4a1-430e-4757-8ab3-003403e19494,,,9/17/2024 12:27:24 PM,,9/17/2024 12:27:24 PM,,,,Somewhat Cooler,In_the_shade,Female
+7,adfeda4a-36a1-4ebf-8f28-38683bf8d544,,,9/17/2024 12:27:36 PM,,9/17/2024 12:27:36 PM,,,,Same,In_the_shade,Male
+8,0774a349-4363-47c1-866e-e26445ec00e1,,,9/17/2024 12:27:48 PM,,9/17/2024 12:27:48 PM,,,,Same,"In_the_shade,No_Wind,Distracting_Noise",Female
+9,1537c0cd-7530-45f3-866c-342c28b38457,,,9/17/2024 12:28:12 PM,,9/17/2024 12:28:12 PM,,,,Same,In_the_shade,Female
+10,0f4d9cae-531c-433c-81fb-f17b0b610d73,,,9/17/2024 12:31:04 PM,,9/17/2024 12:31:04 PM,,,,Same,"In_the_shade,No_Wind,Distracting_Noise",Female
+11,07d584ed-b224-4dda-82f3-062d905c2461,,,9/17/2024 12:31:07 PM,,9/17/2024 12:31:07 PM,,,,Somewhat Warmer,In_the_shade,Female
+12,9534eb8e-9d7d-4cde-8437-f778126f1c76,,,9/17/2024 12:31:16 PM,,9/17/2024 12:31:16 PM,,,,Somewhat Warmer,"In_the_shade,Cloudy,Some_Background_Noise,Poor_Air_Quality",Male
+13,b53e78ad-9dcb-4e98-8e82-28ec3d7325fc,,,9/17/2024 12:31:43 PM,,9/17/2024 12:31:43 PM,,,,Somewhat Warmer,Cloudy,Female
+14,591a4525-694f-4295-80eb-e832e3297bc2,,,9/17/2024 12:31:54 PM,,9/17/2024 12:31:54 PM,,,,Somewhat Warmer,"Cloudy,No_Wind,Some_Background_Noise,Poor_Air_Quality",Male
+15,55987799-61a5-49b9-8e7c-81765dd5454c,,,9/17/2024 12:32:05 PM,,9/17/2024 12:32:05 PM,,,,Somewhat Warmer,"Cloudy,Windy,Some_Background_Noise,Poor_Air_Quality",Female
+16,7eea62e0-8d96-487c-8fa5-b1e1b2c478b0,,,9/17/2024 12:32:14 PM,,9/17/2024 12:32:14 PM,,,,Somewhat Warmer,"In_the_shade,Cloudy,No_Wind,Distracting_Noise,Poor_Air_Quality",Female
+17,67bbd312-b1a9-4528-8fab-7e9a91fea673,,,9/17/2024 12:32:14 PM,,9/17/2024 12:32:14 PM,,,,Somewhat Cooler,"Cloudy,Some_Background_Noise,Poor_Air_Quality",Female
+18,29b0d8cc-f6bc-42d3-819b-90bc2624b48e,,,9/17/2024 12:32:15 PM,,9/17/2024 12:32:15 PM,,,,Somewhat Warmer,"Cloudy,No_Wind,Some_Background_Noise",Male
+19,80acd77f-0012-42b4-893b-77a323f83ff6,,,9/17/2024 12:33:15 PM,,9/17/2024 12:33:15 PM,,,,Somewhat Warmer,"In_direct_sun,Some_Background_Noise",Male
+20,569b644e-61b1-446c-853a-ed2454c53468,,,9/17/2024 12:33:41 PM,,9/17/2024 12:33:41 PM,,,,Somewhat Warmer,"In_direct_sun,Windy",Female
+21,b4c192ba-dd18-4832-8e8f-5b2eab324111,,,9/17/2024 12:34:34 PM,,9/17/2024 12:34:34 PM,,,,Somewhat Warmer,"In_direct_sun,Some_Background_Noise,Good_Air_Quality",Female
+22,028d40ae-5e63-4f0b-86f8-10a722ecc3b3,,,9/17/2024 12:34:57 PM,,9/17/2024 12:34:57 PM,,,,Same,"In_direct_sun,No_Wind,Some_Background_Noise,Good_Air_Quality",Male
+23,00b4ba4e-c16a-450e-8286-6cca4945095f,,,9/17/2024 12:35:05 PM,,9/17/2024 12:35:05 PM,,,,Somewhat Cooler,In_the_shade,Female
+24,462c3b4f-56dd-48f5-8047-48ac23a26d2a,,,9/17/2024 12:35:17 PM,,9/17/2024 12:35:17 PM,,,,Same,"In_the_shade,No_Wind,Distracting_Noise",Male
+25,7ec74fed-4c26-4c15-85b9-95a4f3e79e13,,,9/17/2024 12:35:20 PM,,9/17/2024 12:35:20 PM,,,,Somewhat Cooler,"In_the_shade,Cloudy,Some_Background_Noise,Poor_Air_Quality",Female
+26,3b7f2b92-2c4c-4a0f-8ba5-fa05f95919d2,,,9/17/2024 12:35:38 PM,,9/17/2024 12:35:38 PM,,,,Somewhat Cooler,"Some_Background_Noise,Poor_Air_Quality",Male
+27,099af51c-0bb9-411a-83e1-de2395b3771b,,,9/17/2024 12:35:42 PM,,9/17/2024 12:35:42 PM,,,,Same,"In_the_shade,Quiet",Female
+28,baa48924-c7c8-49f6-8e2c-1836c056af17,,,9/17/2024 12:35:52 PM,,9/17/2024 12:35:52 PM,,,,Somewhat Cooler,"In_the_shade,Cloudy,Windy,Distracting_Noise,Poor_Air_Quality",Female
+29,3993558c-c60e-4d3e-89cd-23ecb8c3f8ee,,,9/17/2024 12:38:54 PM,,9/17/2024 12:38:54 PM,,,,Same,"In_direct_sun,Cloudy,Some_Background_Noise,Good_Air_Quality",Female
+30,8696d30f-5140-4990-82d4-7deac1450d65,,,9/17/2024 12:39:04 PM,,9/17/2024 12:39:04 PM,,,,Somewhat Warmer,"In_direct_sun,No_Wind",Male
+31,d482774a-d086-489f-8904-03fabde6ab28,,,9/17/2024 12:39:12 PM,,9/17/2024 12:39:12 PM,,,,Same,"In_direct_sun,Cloudy,No_Wind,Some_Background_Noise,Good_Air_Quality",Male
+32,1a63d014-fb47-464d-8300-3f053e17f059,,,9/17/2024 12:39:22 PM,,9/17/2024 12:39:22 PM,,,,Much Warmer,"In_direct_sun,No_Wind,Some_Background_Noise",Male
+33,6d53fc4e-3527-4b58-8d19-08f94bfc0345,,,9/17/2024 12:39:25 PM,,9/17/2024 12:39:25 PM,,,,Somewhat Cooler,"Cloudy,No_Wind,Some_Background_Noise",Female
+34,8376eb78-cb7d-45a9-83c7-520587530668,,,9/17/2024 12:39:36 PM,,9/17/2024 12:39:36 PM,,,,Somewhat Cooler,"In_direct_sun,Cloudy,Some_Background_Noise,Good_Air_Quality",Female
+35,3a358190-3406-4029-826f-9712843f6236,,,9/17/2024 12:39:48 PM,,9/17/2024 12:39:48 PM,,,,Much Warmer,Cloudy,Female
+36,13f1a97e-29b5-409d-8af2-8a6e930cb5a8,,,9/17/2024 12:40:10 PM,,9/17/2024 12:40:10 PM,,,,Somewhat Warmer,"In_direct_sun,No_Wind,Some_Background_Noise",Male
+37,82986c34-5d21-4d27-8ca3-3ec5bd577f3c,,,9/17/2024 12:40:16 PM,,9/17/2024 12:40:16 PM,,,,Somewhat Warmer,"In_direct_sun,Distracting_Noise,Some_Background_Noise,Good_Air_Quality",Female
+38,3cd5116e-2630-458a-86e9-eff8c13b1603,,,9/17/2024 12:41:05 PM,,9/17/2024 12:41:05 PM,,,,Somewhat Warmer,"In_direct_sun,No_Wind,Quiet",Female
+39,8dc8a9bc-453e-4825-8cf2-19c774f3ea86,,,9/17/2024 12:42:37 PM,,9/17/2024 12:42:37 PM,,,,Somewhat Cooler,"Cloudy,Windy,Some_Background_Noise",Female
+40,f7403553-21e2-46d6-8c1d-33a6e8f79a84,,,9/17/2024 12:42:54 PM,,9/17/2024 12:42:54 PM,,,,Somewhat Cooler,"In_the_shade,Cloudy,Windy,Some_Background_Noise,Good_Air_Quality",Male
+41,cae2394c-36b6-4cf0-89c4-db0ba80d97ce,,,9/17/2024 12:42:59 PM,,9/17/2024 12:42:59 PM,,,,Somewhat Cooler,"In_the_shade,Windy,Some_Background_Noise,Good_Air_Quality",Female
+42,a58a3d0a-53fe-4c28-84e0-ab11c6caa8c2,,,9/17/2024 12:43:12 PM,,9/17/2024 12:43:12 PM,,,,Strongly disagree,"In_the_shade,Windy,Some_Background_Noise,Good_Air_Quality",Female
+43,6315b8a7-0c1c-4ed3-8d5d-3aa93bccea97,,,9/17/2024 12:43:22 PM,,9/17/2024 12:43:22 PM,,,,Strongly disagree,"In_the_shade,Windy,Distracting_Noise",Male
+44,332be9ef-d4cd-44a7-89db-273a2e8633c0,,,9/17/2024 12:43:22 PM,,9/17/2024 12:43:22 PM,,,,Somewhat Cooler,"In_the_shade,Some_Background_Noise,Good_Air_Quality",Male
+45,51821e31-152c-45db-8b1f-c8e6776c7727,,,9/17/2024 12:43:24 PM,,9/17/2024 12:43:24 PM,,,,Strongly disagree,"In_the_shade,Some_Background_Noise,Poor_Air_Quality",Male
+46,f6bb7543-8aff-450c-84e3-7b6cd08b1072,,,9/17/2024 12:43:29 PM,,9/17/2024 12:43:29 PM,,,,Strongly disagree,"Windy,Some_Background_Noise,Good_Air_Quality",Female
+47,929ccb40-673e-4ac1-8223-edaf03f8708d,,,9/17/2024 12:43:29 PM,,9/17/2024 12:43:29 PM,,,,Somewhat Cooler,"In_the_shade,Quiet",Female
+48,f7fdb4aa-4bd9-410c-82e5-671e8993b532,,,9/17/2024 12:43:34 PM,,9/17/2024 12:43:34 PM,,,,Somewhat Cooler,"In_the_shade,Windy,Some_Background_Noise,Good_Air_Quality",Female
+49,94e846bd-23a6-46d6-878a-3561d0714de8,,,9/17/2024 12:46:16 PM,,9/17/2024 12:46:16 PM,,,,Somewhat Cooler,"In_direct_sun,Cloudy,Windy,Some_Background_Noise,Good_Air_Quality",Female
+50,a2d7a1db-150e-4668-84ab-32b9718c0629,,,9/17/2024 12:46:26 PM,,9/17/2024 12:46:26 PM,,,,Somewhat Warmer,"In_direct_sun,Windy,Distracting_Noise",Male
+51,685a6f33-b5d1-4972-8b49-7ffaf5612722,,,9/17/2024 12:46:27 PM,,9/17/2024 12:46:27 PM,,,,Somewhat Warmer,"In_direct_sun,Cloudy,Windy,Some_Background_Noise,Poor_Air_Quality",Male
+52,62964f9e-8518-4ce5-8fcc-374dbfdc5026,,,9/17/2024 12:46:27 PM,,9/17/2024 12:46:27 PM,,,,Much Warmer,"In_direct_sun,Cloudy,Distracting_Noise,Poor_Air_Quality",Female
+53,2272ae41-65f2-4cd2-8478-9d13bddf06bd,,,9/17/2024 12:46:30 PM,,9/17/2024 12:46:30 PM,,,,Somewhat Warmer,"Cloudy,Windy,Some_Background_Noise",Female
+54,2b7fb755-34ad-48b7-83e4-d36283b8fee9,,,9/17/2024 12:46:31 PM,,9/17/2024 12:46:31 PM,,,,Somewhat Warmer,"Cloudy,Windy,Distracting_Noise,Some_Background_Noise,Poor_Air_Quality",Male
+55,dd77ee2a-fe89-413f-8f08-2fb9f33d49e5,,,9/17/2024 12:46:43 PM,,9/17/2024 12:46:43 PM,,,,Somewhat Warmer,"In_direct_sun,Windy",Female
+56,eefc5d5b-3e02-4c51-8506-82ebe54468fc,,,9/17/2024 12:46:45 PM,,9/17/2024 12:46:45 PM,,,,Same,"In_direct_sun,Cloudy,Some_Background_Noise",Male
+57,d644b91d-5d77-4c89-86f4-4d41ef742311,,,9/17/2024 12:47:01 PM,,9/17/2024 12:47:01 PM,,,,Same,"Cloudy,Windy,Some_Background_Noise,Good_Air_Quality",Female
+58,30612859-a006-4a24-8e3b-1a9cc0ea8122,,,9/17/2024 12:47:16 PM,,9/17/2024 12:47:16 PM,,,,Somewhat Cooler,"Windy,Some_Background_Noise,Poor_Air_Quality",Male
+59,5fe777ff-869b-4bae-8500-045b7c26bbca,,,9/17/2024 12:47:30 PM,,9/17/2024 12:47:30 PM,,,,Somewhat Cooler,"In_direct_sun,Windy,Distracting_Noise,Some_Background_Noise,Poor_Air_Quality",Female
+60,43ec3ae0-b99f-42c6-8cb7-1a39368057b5,,,9/17/2024 12:49:12 PM,,9/17/2024 12:49:12 PM,,,,Somewhat Cooler,"In_the_shade,Windy,Distracting_Noise,Poor_Air_Quality",Male
+61,74fd80f4-9de1-4d10-826b-35f69cd24a26,,,9/17/2024 12:49:14 PM,,9/17/2024 12:49:14 PM,,,,Somewhat Warmer,"In_the_shade,No_Wind,Distracting_Noise,Poor_Air_Quality",Female
+62,e191d6c1-093f-4179-88fe-fcdf4afd484f,,,9/17/2024 12:49:15 PM,,9/17/2024 12:49:15 PM,,,,Somewhat Cooler,"In_the_shade,Distracting_Noise",Female
+63,e443654e-d577-4a11-8963-ecaa41c461fa,,,9/17/2024 12:49:20 PM,,9/17/2024 12:49:20 PM,,,,Strongly disagree,"In_the_shade,Windy,Distracting_Noise,Poor_Air_Quality",Female
+64,afbc5161-cbb1-44f1-8c4f-20a22e7d7c05,,,9/17/2024 12:49:27 PM,,9/17/2024 12:49:27 PM,,,,Same,"In_the_shade,No_Wind,Distracting_Noise,Poor_Air_Quality",Male
+65,f96a4ca1-241e-4678-8419-27ca6b3861d5,,,9/17/2024 12:49:30 PM,,9/17/2024 12:49:30 PM,,,,Strongly disagree,"In_the_shade,Windy,Poor_Air_Quality",Female
+66,93fa8890-f104-4a52-8435-824f8eaf130b,,,9/17/2024 12:50:00 PM,,9/17/2024 12:50:00 PM,,,,Same,In_the_shade,Female
+67,1b24de23-1b78-4013-80a7-58e1e1309115,,,9/17/2024 12:50:07 PM,,9/17/2024 12:50:07 PM,,,,Somewhat Cooler,"In_the_shade,Some_Background_Noise",Female
+68,c5a32371-67f1-4cc3-8867-ce68cf8428b2,,,9/17/2024 12:53:22 PM,,9/17/2024 12:53:22 PM,,,,Same,"In_direct_sun,No_Wind,Distracting_Noise",Male
+69,184afb04-0b29-4ac3-8dd5-b93d26636f41,,,9/17/2024 12:53:31 PM,,9/17/2024 12:53:31 PM,,,,Somewhat Cooler,"In_the_shade,Cloudy,No_Wind,Some_Background_Noise,Good_Air_Quality",Female
+70,cf630b5d-38e4-48fe-8c48-356b856fb41b,,,9/17/2024 12:53:36 PM,,9/17/2024 12:53:36 PM,,,,Somewhat Warmer,"In_direct_sun,Windy,Distracting_Noise,Poor_Air_Quality",Female
+71,e25a46ea-be50-43a0-8a95-04cd9519dc23,,,9/17/2024 12:53:41 PM,,9/17/2024 12:53:41 PM,,,,Same,"Cloudy,No_Wind,Some_Background_Noise,Good_Air_Quality",Male
+72,7d9f480d-c058-4fd1-8105-9a01c388cdb4,,,9/17/2024 12:53:45 PM,,9/17/2024 12:53:45 PM,,,,Same,"In_the_shade,Cloudy,Some_Background_Noise",Female
+73,aa7e1b8f-a63a-4bdb-8c22-0ef76a9547bd,,,9/17/2024 12:53:54 PM,,9/17/2024 12:53:54 PM,,,,Somewhat Warmer,"In_the_shade,No_Wind,Some_Background_Noise,Poor_Air_Quality",Female
+74,b53c9057-9ad3-4682-8f6c-baea914bbe06,,,9/17/2024 12:53:56 PM,,9/17/2024 12:53:56 PM,,,,Somewhat Warmer,"Cloudy,Windy,Some_Background_Noise,Poor_Air_Quality",Male
+75,ae30d981-f6b4-47a1-8a91-0c9153b3f434,,,9/17/2024 12:54:00 PM,,9/17/2024 12:54:00 PM,,,,Somewhat Cooler,"In_the_shade,Windy,Some_Background_Noise",Male
+76,b6c64190-2360-4b43-863a-a6ca55fcae66,,,9/17/2024 12:54:06 PM,,9/17/2024 12:54:06 PM,,,,Somewhat Cooler,"In_the_shade,Cloudy,No_Wind,Distracting_Noise",Female
+77,051ed7bc-b8c2-43ae-85c8-fb2aea4727e7,,,9/17/2024 12:55:42 PM,,9/17/2024 12:55:42 PM,,,,Somewhat Warmer,"In_direct_sun,Cloudy,Windy,Distracting_Noise,Poor_Air_Quality",Male
+78,b8d64e67-98f8-4dfb-850a-7474f9f82307,,,9/17/2024 12:56:05 PM,,9/17/2024 12:56:05 PM,,,,Somewhat Warmer,"In_direct_sun,Poor_Air_Quality",Male
+79,1af7e2ff-ada7-4ca1-8218-995e93b3ef96,,,9/17/2024 12:56:08 PM,,9/17/2024 12:56:08 PM,,,,Much Warmer,"In_direct_sun,No_Wind,Some_Background_Noise",Female
+80,948ab102-6231-4d7e-8467-ef052e6fa270,,,9/17/2024 12:56:09 PM,,9/17/2024 12:56:09 PM,,,,Somewhat Warmer,"In_direct_sun,Cloudy,No_Wind,Some_Background_Noise,Good_Air_Quality",Female
+81,9c8b8342-7c87-4d6f-866a-888ccae73a20,,,9/17/2024 12:56:40 PM,,9/17/2024 12:56:40 PM,,,,Same,"In_direct_sun,Cloudy,Some_Background_Noise",Male
+82,0c2972be-52d2-4168-85e8-3a1760a16e97,,,9/17/2024 12:56:46 PM,,9/17/2024 12:56:46 PM,,,,Much Warmer,"In_direct_sun,Cloudy,Some_Background_Noise,Poor_Air_Quality",Female
+83,ff9424a5-22d6-44d9-8381-56145d74a8f0,,,9/17/2024 12:57:08 PM,,9/17/2024 12:57:08 PM,,,,Same,"In_direct_sun,Cloudy,No_Wind,Distracting_Noise",Male
+84,b5feab01-1671-4972-88b4-af2c72a1c4a0,,,9/17/2024 12:57:11 PM,,9/17/2024 12:57:11 PM,,,,Somewhat Warmer,"Cloudy,Some_Background_Noise",Female
+85,8731d2e9-5edf-49d6-8ab0-e4fb31613c40,,,9/17/2024 12:57:14 PM,,9/17/2024 12:57:14 PM,,,,Somewhat Warmer,"Cloudy,No_Wind,Some_Background_Noise,Poor_Air_Quality",Female
+86,dcc36aa2-cd58-452f-8f25-8f03db682d75,,,9/17/2024 12:58:51 PM,,9/17/2024 12:58:51 PM,,,,Somewhat Warmer,"In_direct_sun,Cloudy,Windy,Distracting_Noise",Male
+87,9f454b2c-f347-4efd-8a44-7d553827b6f1,,,9/17/2024 12:58:55 PM,,9/17/2024 12:58:55 PM,,,,Somewhat Warmer,"Cloudy,Distracting_Noise",Female
+88,7a7fe76d-fc6b-442e-853e-2648017104d3,,,9/17/2024 12:59:11 PM,,9/17/2024 12:59:11 PM,,,,Somewhat Warmer,"In_direct_sun,Cloudy,Windy,Quiet,Poor_Air_Quality",Male
+89,474f88d2-d35c-4f9e-84dd-36f58133e47f,,,9/17/2024 12:59:15 PM,,9/17/2024 12:59:15 PM,,,,Much Warmer,"In_direct_sun,Windy",Male
+90,797c9070-aaf7-4f2b-8ff5-ccb8737712ac,,,9/17/2024 12:59:20 PM,,9/17/2024 12:59:20 PM,,,,Much Warmer,"In_direct_sun,Cloudy,Windy",Male
+91,037442d8-087f-443f-8b84-4383f262abf8,,,9/17/2024 1:01:42 PM,,9/17/2024 1:01:42 PM,,,,Much Warmer,"In_direct_sun,Cloudy,No_Wind,Some_Background_Noise",Male
+92,13121052-b7d4-448e-80dc-ef1206161a82,,,9/17/2024 1:01:47 PM,,9/17/2024 1:01:47 PM,,,,Much Warmer,"In_direct_sun,Quiet",Female
+93,57228e19-680f-4d15-89f3-a58d89762231,,,9/17/2024 1:01:50 PM,,9/17/2024 1:01:50 PM,,,,Same,"In_direct_sun,Quiet",Male
+94,97fcb98e-3518-4d5a-85eb-11b1fa89d74e,,,9/17/2024 1:01:54 PM,,9/17/2024 1:01:54 PM,,,,Much Warmer,In_direct_sun,Female
+95,8c2e30a4-b3f0-4cda-86a9-0bb96a05adb2,,,9/17/2024 1:01:58 PM,,9/17/2024 1:01:58 PM,,,,Same,In_the_shade,Male
+96,96fe0ca2-0e49-487c-8938-8560991f8d71,,,9/17/2024 1:02:00 PM,,9/17/2024 1:02:00 PM,,,,Much Warmer,"In_direct_sun,No_Wind,Quiet,Poor_Air_Quality",Male
+97,f315e18d-3d1b-4d54-820b-fbf8b1712f7c,,,9/17/2024 1:02:01 PM,,9/17/2024 1:02:01 PM,,,,Somewhat Warmer,"In_direct_sun,No_Wind",Female
+98,75bd4b2e-a1d1-4c12-880a-5214d56b5671,,,9/17/2024 1:02:11 PM,,9/17/2024 1:02:11 PM,,,,Much Warmer,"In_direct_sun,No_Wind,Quiet,Good_Air_Quality",Female
+99,09120838-b4b4-4c88-8a0e-e1cfc5ca3e56,,,9/17/2024 1:05:55 PM,,9/17/2024 1:05:55 PM,,,,Somewhat Cooler,"In_the_shade,No_Wind,Some_Background_Noise,Good_Air_Quality",Male
+100,fa3e3b1e-6851-49ec-88b4-bd3d645995da,,,9/17/2024 1:06:09 PM,,9/17/2024 1:06:09 PM,,,,Somewhat Warmer,"In_direct_sun,No_Wind,Distracting_Noise",Female
+101,7e6e2ed4-3e39-4794-89ab-0ae7e5da8601,,,9/17/2024 1:06:13 PM,,9/17/2024 1:06:13 PM,,,,Somewhat Cooler,"In_the_shade,No_Wind,Some_Background_Noise,Good_Air_Quality",Female
+102,ba029cee-0be0-4658-846c-16c8d6a6672d,,,9/17/2024 1:06:14 PM,,9/17/2024 1:06:14 PM,,,,Somewhat Warmer,"In_direct_sun,Cloudy,No_Wind,Distracting_Noise",Male
+103,beb85f9d-6e98-47db-8fd7-083da1d0f83e,,,9/17/2024 1:06:17 PM,,9/17/2024 1:06:17 PM,,,,Somewhat Cooler,"In_the_shade,Cloudy,Some_Background_Noise",Female
+104,cdeecfd6-fd21-4c6b-83d3-9038e6f6cf30,,,9/17/2024 1:06:23 PM,,9/17/2024 1:06:23 PM,,,,Somewhat Warmer,"In_direct_sun,No_Wind,Some_Background_Noise,Poor_Air_Quality",Male
+105,8c3a39da-b40e-41cc-8604-b7ce9695b1f6,,,9/17/2024 1:06:31 PM,,9/17/2024 1:06:31 PM,,,,Somewhat Cooler,"In_the_shade,Quiet",Male
+106,d31519b8-040d-4d7b-83f3-eaa97abf4ffa,,,9/17/2024 1:06:51 PM,,9/17/2024 1:06:51 PM,,,,Somewhat Cooler,"In_the_shade,Quiet",Female
+107,b8b1df83-d7f6-4ca7-88d7-167c04a710a4,,,9/17/2024 1:10:05 PM,,9/17/2024 1:10:05 PM,,,,Somewhat Cooler,"In_direct_sun,Cloudy,No_Wind,Some_Background_Noise",Male
+108,5064a5af-c928-4916-820e-6b5ee28c2b5a,,,9/17/2024 1:10:05 PM,,9/17/2024 1:10:05 PM,,,,Same,"In_direct_sun,No_Wind,Some_Background_Noise,Good_Air_Quality",Male
+109,bc4f2f2b-a5bc-4a4c-856a-d8034bf7309c,,,9/17/2024 1:10:08 PM,,9/17/2024 1:10:08 PM,,,,Same,In_the_shade,Female
+110,41ed9a22-0ebf-454f-8741-e8232729f3d8,,,9/17/2024 1:10:17 PM,,9/17/2024 1:10:17 PM,,,,Same,"In_direct_sun,Quiet",Female
+111,7f08307c-9d32-444a-85b1-bfa518fb3d27,,,9/17/2024 1:10:22 PM,,9/17/2024 1:10:22 PM,,,,Somewhat Cooler,"In_the_shade,Good_Air_Quality",Male
+112,3f2e1e22-56a7-448c-8b6a-1d6513ec2f3c,,,9/17/2024 1:10:43 PM,,9/17/2024 1:10:43 PM,,,,Same,"In_the_shade,No_Wind,Good_Air_Quality",Male
+113,35e0c5b4-ef8c-4712-8d89-106f7996ae89,,,9/17/2024 1:10:55 PM,,9/17/2024 1:10:55 PM,,,,Same,"In_the_shade,Some_Background_Noise,Good_Air_Quality",Female
+114,0306154d-6fa0-4bf9-8d2a-6f831ca9f9bc,,,9/17/2024 1:10:58 PM,,9/17/2024 1:10:58 PM,,,,Same,"In_the_shade,Quiet",Female
+115,b6d0908c-bb42-4aff-8125-9aab0fde6062,,,9/17/2024 1:11:34 PM,,9/17/2024 1:11:34 PM,,,,Somewhat Cooler,"In_the_shade,Windy,Distracting_Noise",Male
+116,af2ad499-a553-4f2f-8ae1-e1ae42624ee1,,,9/17/2024 1:11:46 PM,,9/17/2024 1:11:46 PM,,,,Somewhat Cooler,"In_the_shade,Windy,Some_Background_Noise",Female
+117,28a8b794-f7c8-4692-85e4-bd4fe86d7a83,,,9/17/2024 1:11:55 PM,,9/17/2024 1:11:55 PM,,,,Somewhat Cooler,"In_the_shade,Windy,Some_Background_Noise,Good_Air_Quality",Male
+118,793c980d-2dcf-4c6c-8b8a-eb863900302b,,,9/17/2024 1:12:19 PM,,9/17/2024 1:12:19 PM,,,,Strongly disagree,"In_the_shade,Good_Air_Quality",Male
+119,da4dfe87-dac0-4523-853b-1f2b5a2b1e2b,,,9/17/2024 1:12:40 PM,,9/17/2024 1:12:40 PM,,,,Somewhat Cooler,"In_the_shade,Quiet,Good_Air_Quality",Male
+120,5fa9a8eb-c8b8-4b2a-8e28-52bb7eafa6a9,,,9/17/2024 1:12:46 PM,,9/17/2024 1:12:46 PM,,,,Same,"In_the_shade,Windy,Some_Background_Noise",Female
+121,f633044d-b236-4d09-8461-6b56903c3734,,,9/17/2024 1:15:19 PM,,9/17/2024 1:15:19 PM,,,,Much Warmer,"In_direct_sun,No_Wind,Some_Background_Noise,Poor_Air_Quality",Male
+122,2d58e939-dc64-4fef-8f18-813cfca2989f,,,9/17/2024 1:15:59 PM,,9/17/2024 1:15:59 PM,,,,Much Warmer,"In_direct_sun,No_Wind,Some_Background_Noise",Female
+123,e70f6b4f-8cc9-43fa-8b18-d0aa786c468c,,,9/17/2024 1:18:01 PM,,9/17/2024 1:18:01 PM,,,,Somewhat Cooler,In_the_shade,
+124,a23516c1-4423-4154-807c-fc264fea7a3d,,,9/17/2024 1:18:25 PM,,9/17/2024 1:18:25 PM,,,,Somewhat Cooler,"Cloudy,Windy",Female
+125,0de8e73b-2b26-42b8-81a6-ff2e7eef17c8,,,9/17/2024 1:18:36 PM,,9/17/2024 1:18:36 PM,,,,Somewhat Cooler,"In_the_shade,Quiet,Good_Air_Quality",Male
+126,72aac124-4820-4325-8652-8b176316c39f,,,9/17/2024 1:18:40 PM,,9/17/2024 1:18:40 PM,,,,Somewhat Cooler,"In_the_shade,Cloudy,Quiet",Male
+127,03447c15-6898-4ede-8f49-b374a66bfdb8,,,9/17/2024 1:18:41 PM,,9/17/2024 1:18:41 PM,,,,Strongly disagree,"In_the_shade,Cloudy,Some_Background_Noise,Good_Air_Quality",Female
+128,6068c854-b77b-41cd-8017-109fc04ef668,,,9/17/2024 1:18:52 PM,,9/17/2024 1:18:52 PM,,,,Somewhat Cooler,"In_the_shade,Windy,Some_Background_Noise,Good_Air_Quality",Female
+129,b44c10fe-74a4-4bcc-8e4a-4a3091743b56,,,9/17/2024 1:18:53 PM,,9/17/2024 1:18:53 PM,,,,Somewhat Cooler,"In_the_shade,Windy,Some_Background_Noise,Good_Air_Quality",Male
+130,16f00827-896f-49f2-8956-95992beaacef,,,9/17/2024 1:18:53 PM,,9/17/2024 1:18:53 PM,,,,Somewhat Cooler,"In_the_shade,Windy,Some_Background_Noise",Male
+131,b30fb16c-7435-4517-8848-2a5e4aa31dad,,,9/17/2024 1:19:10 PM,,9/17/2024 1:19:10 PM,,,,Somewhat Cooler,"In_the_shade,Quiet",Female
+132,f00f0f66-bb4f-4917-8953-cd6c376b5829,,,9/17/2024 1:21:56 PM,,9/17/2024 1:21:56 PM,,,,Same,"In_direct_sun,Windy,Quiet,Good_Air_Quality",Male
+133,d5d3161f-312a-4f2e-8718-cb2701e62a8f,,,9/17/2024 1:25:26 PM,,9/17/2024 1:25:26 PM,,,,Somewhat Cooler,"In_direct_sun,Windy,Quiet",Male
+134,bbb30861-3b39-4876-80ff-c014d0952b89,,,9/17/2024 1:25:47 PM,,9/17/2024 1:25:47 PM,,,,Somewhat Cooler,"In_direct_sun,Cloudy,Windy,Some_Background_Noise,Good_Air_Quality",Male
+135,29a0f65d-6b69-4ea2-8ba5-8b0cfa346804,,,9/17/2024 1:25:47 PM,,9/17/2024 1:25:47 PM,,,,Somewhat Warmer,"In_direct_sun,Quiet,Good_Air_Quality",Female
+136,8ea6e9a6-85a2-41bd-8adc-9fbdb4076aa5,,,9/17/2024 1:25:50 PM,,9/17/2024 1:25:50 PM,,,,Somewhat Cooler,"In_direct_sun,Windy,Quiet,Good_Air_Quality",Male
+137,f7c62be9-73a3-4873-8cc1-bb2b2c98005d,,,9/17/2024 1:25:53 PM,,9/17/2024 1:25:53 PM,,,,Somewhat Cooler,"Cloudy,Windy,Quiet",Female
+138,6525fa58-79fe-4a3f-808f-01327989a5c3,,,9/17/2024 1:26:15 PM,,9/17/2024 1:26:15 PM,,,,Somewhat Warmer,"In_direct_sun,Windy,Some_Background_Noise,Good_Air_Quality",Female
+139,77eeebde-6b66-49e3-851a-36458abaeb80,,,9/17/2024 1:28:14 PM,,9/17/2024 1:28:14 PM,,,,Much Warmer,"In_direct_sun,No_Wind,Distracting_Noise",Male
+140,e9f8adb9-c3e1-40f9-85a9-1686da8ea9be,,,9/17/2024 1:28:22 PM,,9/17/2024 1:28:22 PM,,,,Somewhat Warmer,"In_direct_sun,No_Wind,Distracting_Noise",Female
+141,ead1400d-dc28-40dc-89f7-d12c7a7ebd5b,,,9/17/2024 1:28:25 PM,,9/17/2024 1:28:25 PM,,,,Somewhat Warmer,"In_direct_sun,No_Wind,Some_Background_Noise,Poor_Air_Quality",Male
+142,cf6b5f7a-ded0-40ad-8083-06aa37ff4493,,,9/17/2024 1:28:27 PM,,9/17/2024 1:28:27 PM,,,,Much Warmer,"In_direct_sun,Some_Background_Noise,Poor_Air_Quality",Male
+143,91fa7322-4b80-4dff-8eca-e829f3a714ed,,,9/17/2024 1:28:28 PM,,9/17/2024 1:28:28 PM,,,,Much Warmer,"In_direct_sun,Distracting_Noise",Female
+144,3757ba8b-e7bb-4446-8506-d1c1173639e5,,,9/17/2024 1:28:29 PM,,9/17/2024 1:28:29 PM,,,,Somewhat Warmer,"In_direct_sun,Windy,Some_Background_Noise,Poor_Air_Quality",Male
+145,c9d6dddc-cd0d-48d1-86f6-8a113cf0ae19,,,9/17/2024 1:28:33 PM,,9/17/2024 1:28:33 PM,,,,Much Warmer,"In_direct_sun,No_Wind",Female
+146,7f76a6b7-80a3-498c-85fe-de8965c49ec4,,,9/17/2024 1:28:44 PM,,9/17/2024 1:28:44 PM,,,,Much Warmer,"In_direct_sun,Windy,Some_Background_Noise",Female
+147,133adc77-cf0e-43a4-84ef-b5c93623d751,,,9/17/2024 1:31:02 PM,,9/17/2024 1:31:02 PM,,,,Much Warmer,"In_direct_sun,No_Wind,Quiet",Female
+148,101dd4c4-bb70-43fb-848d-6ad334ee27f3,,,9/17/2024 1:31:15 PM,,9/17/2024 1:31:15 PM,,,,Much Warmer,"In_direct_sun,Some_Background_Noise",Male
+149,01289c45-31e1-4742-806d-d6c1e1ca1300,,,9/17/2024 1:31:40 PM,,9/17/2024 1:31:40 PM,,,,Somewhat Warmer,"In_direct_sun,No_Wind",Male
+150,1ce6bbc6-ec10-4205-84d2-2b8be8ecc458,,,9/17/2024 1:31:41 PM,,9/17/2024 1:31:41 PM,,,,Much Warmer,"In_direct_sun,No_Wind,Quiet",
+151,c1ec532b-d823-48d7-80f3-65029ce27b67,,,9/17/2024 1:31:50 PM,,9/17/2024 1:31:50 PM,,,,Much Warmer,"In_direct_sun,No_Wind,Quiet,Good_Air_Quality",Female
+152,515f60cf-a4eb-4448-8a9b-ca492322dbd8,,,9/17/2024 1:32:29 PM,,9/17/2024 1:32:29 PM,,,,Somewhat Warmer,"In_direct_sun,No_Wind,Quiet,Good_Air_Quality",Male
+153,119d3a29-c508-4d69-8e29-fef56cb3940f,,,9/17/2024 1:35:49 PM,,9/17/2024 1:35:49 PM,,,,Much Warmer,"In_direct_sun,No_Wind",Female
+154,3896056d-71a4-426f-87e6-2b5df7fa4ac3,,,9/17/2024 1:42:37 PM,,9/17/2024 1:42:37 PM,,,,Somewhat Cooler,"In_the_shade,Cloudy,Quiet",Male
+155,dc3beaf8-215d-4ec9-8198-98c0846ac871,,,9/17/2024 1:42:50 PM,,9/17/2024 1:42:50 PM,,,,Somewhat Cooler,"In_the_shade,No_Wind,Quiet,Good_Air_Quality",Female
+156,78f95e76-01a9-4e1e-8d0c-a8ac3ab5b666,,,9/17/2024 1:42:53 PM,,9/17/2024 1:42:53 PM,,,,Same,"In_the_shade,No_Wind,Quiet,Good_Air_Quality",Male
+157,cbd7528e-4b48-43d0-87ad-803734c12b70,,,9/17/2024 1:43:05 PM,,9/17/2024 1:43:05 PM,,,,Strongly disagree,"In_the_shade,No_Wind,Some_Background_Noise",Female
+158,33c7a6b2-7090-42e2-85ef-14ee3b865232,,,9/17/2024 1:43:07 PM,,9/17/2024 1:43:07 PM,,,,Somewhat Cooler,"In_the_shade,Cloudy,No_Wind,Some_Background_Noise",Male
+159,36d59477-2968-4be6-85d2-1be88f95f033,,,9/17/2024 1:43:13 PM,,9/17/2024 1:43:13 PM,,,,Strongly disagree,"In_the_shade,Windy,Quiet",Male
+160,9988dc43-a39c-483d-8909-947a0ead8348,,,9/17/2024 1:43:16 PM,,9/17/2024 1:43:16 PM,,,,Somewhat Cooler,"In_the_shade,No_Wind,Some_Background_Noise",Female
+161,f292417e-21fe-4879-8dd9-c5dd2f13f266,,,9/17/2024 1:44:11 PM,,9/17/2024 1:44:11 PM,,,,Somewhat Cooler,"In_the_shade,No_Wind,Quiet",Female
+162,a042ef00-30bc-4a77-8887-1a3028614320,,,9/17/2024 1:47:26 PM,,9/17/2024 1:47:26 PM,,,,Somewhat Cooler,"In_the_shade,Distracting_Noise,Poor_Air_Quality",Male
+163,43dd3941-5a9c-49f9-86ce-39bd990d5590,,,9/17/2024 1:47:28 PM,,9/17/2024 1:47:28 PM,,,,Same,"In_the_shade,No_Wind,Some_Background_Noise",Female
+164,f9d8c545-2859-4bfa-8c68-f5a99ee29bb3,,,9/17/2024 1:47:35 PM,,9/17/2024 1:47:35 PM,,,,Same,"In_the_shade,Cloudy,No_Wind,Distracting_Noise",Male
+165,61e9085c-d01e-4fd5-8c7e-ca3e2c09b439,,,9/17/2024 1:47:43 PM,,9/17/2024 1:47:43 PM,,,,Somewhat Cooler,"In_the_shade,Some_Background_Noise",Male
+166,33d6a320-68ad-4559-858c-25eb83c61bc0,,,9/17/2024 1:47:47 PM,,9/17/2024 1:47:47 PM,,,,Somewhat Cooler,"In_the_shade,No_Wind,Distracting_Noise,Good_Air_Quality",Female
+167,471c555c-9bbe-42d6-8055-f76485b2984b,,,9/17/2024 1:48:04 PM,,9/17/2024 1:48:04 PM,,,,Somewhat Cooler,"In_the_shade,No_Wind,Some_Background_Noise,Good_Air_Quality",Female
+168,457687e3-836d-4f5d-834f-633ee375ef48,,,9/17/2024 1:48:06 PM,,9/17/2024 1:48:06 PM,,,,Somewhat Cooler,"In_the_shade,No_Wind,Some_Background_Noise,Good_Air_Quality",Male
+169,df6039cc-43a7-458e-87f1-627650e10569,,,9/17/2024 1:48:30 PM,,9/17/2024 1:48:30 PM,,,,Somewhat Cooler,"In_the_shade,Some_Background_Noise",Female
+170,f0da828a-23db-4414-8f66-5cbecb245934,,,9/17/2024 2:05:48 PM,,9/17/2024 2:05:48 PM,,,,Strongly disagree,In_direct_sun,Male
+171,011ed0d9-6cc7-4221-8100-be8ed44dab4e,,,9/17/2024 2:05:49 PM,,9/17/2024 2:05:49 PM,,,,Same,"In_direct_sun,No_Wind,Some_Background_Noise,Good_Air_Quality",Male
+172,bba94024-45ee-4013-8b9d-b05a9ff438b5,,,9/17/2024 2:06:04 PM,,9/17/2024 2:06:04 PM,,,,Somewhat Cooler,"In_direct_sun,No_Wind,Some_Background_Noise,Good_Air_Quality",Female
