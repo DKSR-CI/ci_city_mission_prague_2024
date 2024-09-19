@@ -14,3 +14,6 @@ meteostat==1.6.7
 psycopg2
 arcgis
 dask[dataframe]
+python-dotenv
+sqlalchemy
+pandas
