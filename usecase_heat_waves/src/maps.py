@@ -17,6 +17,7 @@ from PIL import Image
 from dotenv import load_dotenv
 import branca
 import rasterio as rio
+from branca.colormap import linear
 
 sys.path.append("../data")
 load_dotenv()
@@ -278,7 +279,8 @@ def plot_dot(this_map, point, color_map, color_col=""):
 def districts_gdf_to_folium_layer(districts_gdf, 
                                 gdf_color_column="",
                                 fields=["name", "lst_max", "lst_mean", "lst_min"],
-                                aliases=["Name:", "LST max:", "LST mean:", "LST min:"]):
+                                aliases=["Name:", "LST max:", "LST mean:", "LST min:"],
+                                opacity=0.1):
         # Add districts tooltip (hover text)
         d_popup = folium.GeoJsonPopup(
             fields=fields,
@@ -292,13 +294,27 @@ def districts_gdf_to_folium_layer(districts_gdf,
         )
         
         if gdf_color_column != "":
-            # Create colormap for lst
-            colormap = cm.LinearColormap(
-                colors=['blue', 'cyan', 'yellow', 'orange', 'red'],
-                index=[9, 20, 28, 32, 40], vmin=20, vmax=50,
-                caption=gdf_color_column)
-            districts_dict = districts_gdf.set_index(districts_gdf.index.astype(str))[gdf_color_column]
-            color_dict = {key: colormap(float(districts_dict[key])) for key in districts_dict.keys()}
+            if "LST" in gdf_color_column:
+                # Create colormap for lst
+                colormap = cm.LinearColormap(
+                    colors=['blue', 'cyan', 'yellow', 'orange', 'red'],
+                    index=[9, 20, 28, 32, 40], vmin=20, vmax=50,
+                    caption=gdf_color_column)
+                districts_dict = districts_gdf.set_index(districts_gdf.index.astype(str))[gdf_color_column]
+                color_dict = {key: colormap(float(districts_dict[key])) for key in districts_dict.keys()}
+        
+            else:
+                # For generic column, use min and max of the column to create a colormap
+                min_val = districts_gdf[gdf_color_column].min()
+                max_val = districts_gdf[gdf_color_column].max()
+
+                # Create a continuous colormap (e.g., using the 'Viridis' colormap from branca)
+                colormap = linear.YlOrRd_04.scale(min_val, max_val)
+                colormap.caption = gdf_color_column
+
+                # Create the color dictionary for the column
+                districts_dict = districts_gdf.set_index(districts_gdf.index.astype(str))[gdf_color_column]
+                color_dict = {key: colormap(districts_dict[key]) for key in districts_dict.keys()}
             
             # Add districts
             geojson_layer = folium.GeoJson(
@@ -306,13 +322,12 @@ def districts_gdf_to_folium_layer(districts_gdf,
                 data=districts_gdf,
                 zoom_on_click=True,
                 style_function=lambda x: {#'fillColor': color_dict[x["id"]], 
-                                        "fillOpacity":0,
+                                        "fillOpacity":opacity,
                                         'color': color_dict[x["id"]],
                                         'weight':1},
                 popup=d_popup,
                 show=True
             )
-
             return geojson_layer, colormap
     
         else:

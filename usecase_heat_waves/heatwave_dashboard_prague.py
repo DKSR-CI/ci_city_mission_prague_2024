@@ -89,8 +89,6 @@ with st.expander("""### :blue-background[What are heatwaves and why do they matt
 
 ##### Historical Data
 st.header("Heatwaves over the last 20 years", divider=divider_color)
-
-
 col1, col2 = st.columns([1,1])
 with col1:
     st.subheader("Number of heatwave days logged by each weather station")
@@ -130,9 +128,9 @@ with col2:
     else:
         st.subheader("Click on a station for more information")
         
-        
-##### Prague Sensors
 st.session_state.m = folium.Map()
+
+# Add LST
 st.session_state.m = hw_maps.add_lst_to_map(REPROJECTED_LST_PATH, st.session_state.m)
 st.session_state.m.fit_bounds(st.session_state.m.get_bounds()) 
 
