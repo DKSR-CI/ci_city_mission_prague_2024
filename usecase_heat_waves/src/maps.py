@@ -316,7 +316,7 @@ def districts_gdf_to_folium_layer(districts_gdf,
                 max_val = districts_gdf[gdf_color_column].max()
 
                 # Create a continuous colormap (e.g., using the 'Viridis' colormap from branca)
-                colormap = linear.YlOrRd_04.scale(min_val, max_val)
+                colormap = linear.RdPu_09.scale(min_val, max_val)
                 colormap.caption = gdf_color_column
 
                 # Create the color dictionary for the column
